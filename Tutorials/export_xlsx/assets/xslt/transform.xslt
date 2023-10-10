@@ -2,7 +2,6 @@
     xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:fn="fn"
     xmlns:pl="http://product-live.com"
-    xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet" 
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     version="3.0"
     exclude-result-prefixes="xs fn pl">
@@ -31,25 +30,22 @@
     <xsl:template match="/">
         <!-- <xsl:copy-of select="$table"/> -->
         <xsl:variable name="generateHeader">
-            <Row>
                 <!-- En tête -->
                 <xsl:for-each select="$request/Identifier">
                     <!--on récupère la clé courante -->
-                    <xsl:variable name="cellNumber" select="position()" />
                     <xsl:variable name="myKey" select="@key" />
-                    <Cell-Text line="1" column="{$cellNumber}" key="{$myKey}">
+                    <Cell key="{$myKey}">
                         <xsl:value-of select="$table/Identifiers/Identifier[@key=$myKey]/Title"/>
-                    </Cell-Text>
+                    </Cell>
                 </xsl:for-each>
-                <Cell-Text line="1" column="4" key="created"><xsl:text>Date de création</xsl:text></Cell-Text>
-                <Cell-Text line="1" column="5" key="categoriesSarenza"><xsl:value-of select="$table/Classifications/Classification[@key=$request/Classification/@key]/Title"/></Cell-Text>
+                <Cell key="created"><xsl:text>Date de création</xsl:text></Cell>
+                <Cell key="categoriesSarenza"><xsl:value-of select="$table/Classifications/Classification[@key=$request/Classification/@key]/Title"/></Cell>
                 <xsl:for-each select="$request/Field">
                     <!--on récupère la clé courante -->
                     <xsl:variable name="cellNumber" select="position() + 5" />
                     <xsl:variable name="myKey" select="@key" />
-                    <Cell-Text line="1" column="{$cellNumber}" key="{$myKey}"><xsl:value-of select="$table/Fields/Field[@key=$myKey]/Title"/></Cell-Text>
+                    <Cell key="{$myKey}"><xsl:value-of select="$table/Fields/Field[@key=$myKey]/Title"/></Cell>
                 </xsl:for-each>
-            </Row>
         </xsl:variable>
         <xsl:message terminate="no"><xsl:copy-of select="$generateHeader"/></xsl:message>
         <!-- Lignes -->
@@ -58,12 +54,11 @@
                 <xsl:variable name="model" select="." />
                 <xsl:for-each select="Item">
                     <xsl:variable name="modelColor" select="." />
-                    <xsl:variable name="rowNumber" select="position()"/>
+                    <xsl:variable name="rowNumber" select="position() + 1"/>
                     <xsl:for-each select="Item">
                         <xsl:variable name="modelColorSize" select="." />
                         <xsl:variable name="createdDate" select="@created" />
-                        <Row>
-                            <xsl:for-each select="$generateHeader/Row/Cell-Text">
+                            <xsl:for-each select="$generateHeader/Cell">
                                 <xsl:variable name="cellNumber" select="position()"/>
                                 <xsl:variable name="attribute" select="@key" />
                                 <xsl:variable name="value">
@@ -123,7 +118,6 @@
                                 </xsl:variable>
                                 <Cell-Text line="{$rowNumber}" column="{$cellNumber}"><xsl:value-of select="$value" /></Cell-Text>
                             </xsl:for-each>
-                        </Row>
                     </xsl:for-each>
                 </xsl:for-each>
             </xsl:for-each>
@@ -139,19 +133,16 @@
                         <Sheet>
                             <Sheet-Name>products</Sheet-Name>
                             <Cells>
+                                <xsl:for-each select="$generateHeader/Cell">
+                                    <xsl:variable name="pos" select="position()"/>
+                                    <Cell-Text line="1" column="{$pos}"><xsl:value-of select="."/></Cell-Text>
+                                </xsl:for-each>
                                 <xsl:copy-of select="$generateHeader"/>
                                 <xsl:copy-of select="$data"/>
                             </Cells>
                         </Sheet>
                     </Sheets>
             </File>
-        <Worksheet ss:Name="Products"> 
-            <Table>
-                <Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="110"/>
-                <xsl:copy-of select="$generateHeader"/>
-                <xsl:copy-of select="$data"/>
-            </Table>
-        </Worksheet>
         </Generate-Excel>
     </xsl:template>
 </xsl:stylesheet>
