@@ -40,6 +40,8 @@
                                     <xsl:variable name="value" select="C[@j=7]" />
                                     <xsl:value-of select="$table/Fields/Field[@key='174']/Options/Option[Title=$value]/@key"/>
                                 </Field>
+                                <xsl:variable name="libelle-commercial" select="concat(C[@j=6], '-',C[@j=10])" />
+                                <Field key="177"><xsl:value-of select="$libelle-commercial"/></Field>
 
                                 <xsl:for-each select="current-group()">
                                     <Item>

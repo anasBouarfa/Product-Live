@@ -1,0 +1,64 @@
+{
+	"schema": "1.0",
+	"key": "import-classification",
+	"title": "import-classification",
+	"tasks": [
+		{
+			"name": "protocol-ftp-get",
+			"taskReferenceName": "protocol_ftp_get",
+			"description": "Get csv file from FTP",
+			"optional": false,
+			"type": "SUB_WORKFLOW",
+			"inputParameters": {
+				"connection": "SFTP",
+				"host": "${workflow.variable.pl_ftp_host}",
+				"username": "${workflow.variable.pl_ftp_username}",
+				"password": "${workflow.variable.pl_ftp_password}",
+				"port": "${workflow.variable.pl_ftp_port}",
+				"mode": "PARAMETERS",
+				"remoteFolder": "${workflow.variable.pl_ftp_path_import_table}",
+				"sort": "LAST_MODIFIED_DESC",
+				"filter": "categories.xlsx",
+				"maxFiles": 1
+			}
+		},
+		{
+			"name": "file-conversion-csv-to-xml",
+			"taskReferenceName": "file_conversion_csv_to_xml",
+			"description": "Convert csv to xml",
+			"optional": false,
+			"type": "SUB_WORKFLOW",
+			"inputParameters": {
+				"mode": "FILE",
+				"file": "${protocol_ftp_get.output.file}",
+				"columnSeparator": ";",
+				"textDelimiter": "\"",
+				"escapeCharacter": "\""
+			}
+		},
+		{
+			"name": "file-transformation-xslt",
+			"taskReferenceName": "file_transformation_xslt",
+			"description": "Transform xml to schema format",
+			"optional": false,
+			"type": "SUB_WORKFLOW",
+			"inputParameters": {
+				"mode": "FILE",
+				"file": "${file_conversion_csv_to_xml.output.file}",
+				"xslt": "file://assets/import_classification.xslt",
+				"fileName": "result.xml"
+			}
+		},
+		{
+			"name": "table-import-schema",
+			"taskReferenceName": "table_import_schema",
+			"description": "import schema",
+			"optional": false,
+			"type": "SUB_WORKFLOW",
+			"inputParameters": {
+				"mode": "INCREMENTAL",
+				"request": "${file_transformation_xslt.output.file}"
+			}
+		}
+	]
+}

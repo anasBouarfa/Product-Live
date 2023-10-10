@@ -9,6 +9,7 @@
          <Item>
             <Identifier key="pcid">988000</Identifier>
             <Field key="174">3015</Field>
+            <Field key="177">Jordan-Beige</Field>
             <Item>
                <Identifier key="vid">1000001</Identifier>
                <Field key="advised_sale_price">77</Field>
@@ -17,6 +18,7 @@
          <Item>
             <Identifier key="pcid">988001</Identifier>
             <Field key="174">3015</Field>
+            <Field key="177">Jordan-Blanc</Field>
             <Item>
                <Identifier key="vid">1000002</Identifier>
                <Field key="advised_sale_price">77</Field>
@@ -25,6 +27,7 @@
          <Item>
             <Identifier key="pcid">988006</Identifier>
             <Field key="174">3015</Field>
+            <Field key="177">Jordan-Jaune vif</Field>
             <Item>
                <Identifier key="vid">1000003</Identifier>
                <Field key="advised_sale_price">77</Field>
@@ -33,6 +36,7 @@
          <Item>
             <Identifier key="pcid">988008</Identifier>
             <Field key="174">3015</Field>
+            <Field key="177">Jordan-Marine</Field>
             <Item>
                <Identifier key="vid">1000004</Identifier>
                <Field key="advised_sale_price">77</Field>
@@ -41,6 +45,7 @@
          <Item>
             <Identifier key="pcid">988009</Identifier>
             <Field key="174">3015</Field>
+            <Field key="177">Jordan-Marron foncé</Field>
             <Item>
                <Identifier key="vid">1000005</Identifier>
                <Field key="advised_sale_price">77</Field>
@@ -49,6 +54,7 @@
          <Item>
             <Identifier key="pcid">988010</Identifier>
             <Field key="174">3015</Field>
+            <Field key="177">Jordan-Multicolore</Field>
             <Item>
                <Identifier key="vid">1000006</Identifier>
                <Field key="advised_sale_price">77</Field>
@@ -57,6 +63,7 @@
          <Item>
             <Identifier key="pcid">987000</Identifier>
             <Field key="174">3015</Field>
+            <Field key="177">Jordan-Blanc</Field>
             <Item>
                <Identifier key="vid">1000007</Identifier>
                <Field key="advised_sale_price">77</Field>
@@ -69,6 +76,7 @@
          <Item>
             <Identifier key="pcid">987001</Identifier>
             <Field key="174">3015</Field>
+            <Field key="177">Nike-Beige</Field>
             <Item>
                <Identifier key="vid">1234001</Identifier>
                <Field key="advised_sale_price">98</Field>
