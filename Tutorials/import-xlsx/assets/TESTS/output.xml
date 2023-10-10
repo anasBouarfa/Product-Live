@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Table key="PRODUCTS_SARENZA">
+   <Items>
+      <Item partition="976">
+         <Identifier key="pid">124005</Identifier>
+         <Classification key="categoriesSarenza">Mid Hautes</Classification>
+         <Field key="42">Albanie</Field>
+         <Field key="brand">Jordan</Field>
+         <Identifier key="pid">124005</Identifier>
+         <Classification key="categoriesSarenza">Mid Hautes</Classification>
+         <Field key="42">Albanie</Field>
+         <Field key="brand">Jordan</Field>
+         <Identifier key="pid">124005</Identifier>
+         <Classification key="categoriesSarenza">Mid Hautes</Classification>
+         <Field key="42">Albanie</Field>
+         <Field key="brand">Jordan</Field>
+         <Identifier key="pid">124005</Identifier>
+         <Classification key="categoriesSarenza">Mid Hautes</Classification>
+         <Field key="42">Albanie</Field>
+         <Field key="brand">Jordan</Field>
+         <Identifier key="pid">124005</Identifier>
+         <Classification key="categoriesSarenza">Mid Hautes</Classification>
+         <Field key="42">Albanie</Field>
+         <Field key="brand">Jordan</Field>
+         <Identifier key="pid">124005</Identifier>
+         <Classification key="categoriesSarenza">Mid Hautes</Classification>
+         <Field key="42">Albanie</Field>
+         <Field key="brand">Jordan</Field>
+         <Identifier key="pid">124005</Identifier>
+         <Classification key="categoriesSarenza">Mid Hautes</Classification>
+         <Field key="42">Albanie</Field>
+         <Field key="brand">Jordan</Field>
+         <Identifier key="pid">123001</Identifier>
+         <Classification key="categoriesSarenza">Baskets</Classification>
+         <Field key="42">Asie</Field>
+         <Field key="brand">Nike</Field>
+      </Item>
+      <Item partition="ACTIVES">
+         <Identifier key="EAN_13">1234567890124</Identifier>
+         <Classification key="TYPOLOGY">LAPTOPS</Classification>
+         <Field key="TITLE_EN">Laptop 2</Field>
+         <Field key="DESCRIPTION_EN" delete="true"/>
+      </Item>
+   </Items>
+</Table>

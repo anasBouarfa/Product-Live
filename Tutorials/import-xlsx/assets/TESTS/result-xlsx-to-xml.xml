@@ -1,0 +1,131 @@
+<Xlsx-To-Xml>
+    <File>
+        <File-Name>données_sarenza.xlsx</File-Name>
+        <Sheets>
+            <Sheet>
+                <Sheet-Name>Feuil1</Sheet-Name>
+                <Sheet-Index>1</Sheet-Index>
+                <Rows>
+                    <R i="1">
+                        <C j="1">pid</C>
+                        <C j="2">pcid</C>
+                        <C j="3">vid</C>
+                        <C j="4">Classification</C>
+                        <C j="5">Pays de fabrication</C>
+                        <C j="6">Marque</C>
+                        <C j="7">Tranche d'âges</C>
+                        <C j="8">Sexe</C>
+                        <C j="9">Libellé commercial</C>
+                        <C j="10">Couleurs</C>
+                        <C j="11">Prix de vente</C>
+                        <C j="12">Variante\Taille EU</C>
+                    </R>
+                    <R i="2">
+                        <C j="1">124005</C>
+                        <C j="2">988000</C>
+                        <C j="3">1000001</C>
+                        <C j="4">Mid Hautes</C>
+                        <C j="5">Albanie</C>
+                        <C j="6">Jordan</C>
+                        <C j="7">Adulte</C>
+                        <C j="8">Féminin</C>
+                        <C j="10">Beige</C>
+                        <C j="11">77</C>
+                        <C j="12">38</C>
+                    </R>
+                    <R i="3">
+                        <C j="1">124005</C>
+                        <C j="2">988001</C>
+                        <C j="3">1000002</C>
+                        <C j="4">Mid Hautes</C>
+                        <C j="5">Albanie</C>
+                        <C j="6">Jordan</C>
+                        <C j="7">Adulte</C>
+                        <C j="8">Féminin</C>
+                        <C j="10">Blanc</C>
+                        <C j="11">77</C>
+                        <C j="12">39</C>
+                    </R>
+                    <R i="4">
+                        <C j="1">124005</C>
+                        <C j="2">988006</C>
+                        <C j="3">1000003</C>
+                        <C j="4">Mid Hautes</C>
+                        <C j="5">Albanie</C>
+                        <C j="6">Jordan</C>
+                        <C j="7">Adulte</C>
+                        <C j="8">Féminin</C>
+                        <C j="10">Jaune vif</C>
+                        <C j="11">77</C>
+                        <C j="12">40</C>
+                    </R>
+                    <R i="5">
+                        <C j="1">124005</C>
+                        <C j="2">988008</C>
+                        <C j="3">1000004</C>
+                        <C j="4">Mid Hautes</C>
+                        <C j="5">Albanie</C>
+                        <C j="6">Jordan</C>
+                        <C j="7">Adulte</C>
+                        <C j="8">Féminin</C>
+                        <C j="10">Marine</C>
+                        <C j="11">77</C>
+                        <C j="12">41</C>
+                    </R>
+                    <R i="6">
+                        <C j="1">124005</C>
+                        <C j="2">988009</C>
+                        <C j="3">1000005</C>
+                        <C j="4">Mid Hautes</C>
+                        <C j="5">Albanie</C>
+                        <C j="6">Jordan</C>
+                        <C j="7">Adulte</C>
+                        <C j="8">Féminin</C>
+                        <C j="10">Marron foncé</C>
+                        <C j="11">77</C>
+                        <C j="12">39</C>
+                    </R>
+                    <R i="7">
+                        <C j="1">124005</C>
+                        <C j="2">988010</C>
+                        <C j="3">1000006</C>
+                        <C j="4">Mid Hautes</C>
+                        <C j="5">Albanie</C>
+                        <C j="6">Jordan</C>
+                        <C j="7">Adulte</C>
+                        <C j="8">Féminin</C>
+                        <C j="10">Multicolore</C>
+                        <C j="11">77</C>
+                        <C j="12">38</C>
+                    </R>
+                    <R i="8">
+                        <C j="1">124005</C>
+                        <C j="2">987000</C>
+                        <C j="3">1000007</C>
+                        <C j="4">Mid Hautes</C>
+                        <C j="5">Albanie</C>
+                        <C j="6">Jordan</C>
+                        <C j="7">Adulte</C>
+                        <C j="8">Féminin</C>
+                        <C j="10">Blanc</C>
+                        <C j="11">77</C>
+                        <C j="12">41</C>
+                    </R>
+                    <R i="9">
+                        <C j="1">123001</C>
+                        <C j="2">987001</C>
+                        <C j="3">1234001</C>
+                        <C j="4">Baskets</C>
+                        <C j="5">Asie</C>
+                        <C j="6">Nike</C>
+                        <C j="7">Adulte</C>
+                        <C j="8">Masculin</C>
+                        <C j="10">Beige</C>
+                        <C j="11">98</C>
+                        <C j="12">47</C>
+                    </R>
+                </Rows>
+            </Sheet>
+        </Sheets>
+    </File>
+</Xlsx-To-Xml>
