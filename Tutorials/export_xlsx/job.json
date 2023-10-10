@@ -61,7 +61,7 @@
 					}
 				],
 				"xslt": "file://assets/xslt/transform.xslt",
-				"fileName": "result.xml"
+				"fileName": "export-result.xml"
 			}
 		},
 		{

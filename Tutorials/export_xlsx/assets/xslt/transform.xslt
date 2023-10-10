@@ -54,9 +54,9 @@
                 <xsl:variable name="model" select="." />
                 <xsl:for-each select="Item">
                     <xsl:variable name="modelColor" select="." />
-                    <xsl:variable name="rowNumber" select="position() + 1"/>
                     <xsl:for-each select="Item">
                         <xsl:variable name="modelColorSize" select="." />
+                        <xsl:variable name="rowNumber" select="position() + 1"/>
                         <xsl:variable name="createdDate" select="@created" />
                             <xsl:for-each select="$generateHeader/Cell">
                                 <xsl:variable name="cellNumber" select="position()"/>
