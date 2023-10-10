@@ -1,0 +1,73 @@
+{
+	"schema": "1.0",
+	"key": "import-xlsx",
+	"title": "import-xlsx",
+	"tasks": [
+		{
+			"name": "protocol-ftp-get",
+			"taskReferenceName": "protocol_ftp_get",
+			"description": "Get Excel file from FTP",
+			"optional": false,
+			"type": "SUB_WORKFLOW",
+			"inputParameters": {
+				"connection": "SFTP",
+				"host": "${workflow.variable.pl_ftp_host}",
+				"username": "${workflow.variable.pl_ftp_username}",
+				"password": "${workflow.variable.pl_ftp_password}",
+				"port": "${workflow.variable.pl_ftp_port}",
+				"mode": "PARAMETERS",
+				"remoteFolder": "/data/formation",
+				"sort": "LAST_MODIFIED_DESC",
+				"filter": "données_sarenza.xlsx",
+				"maxFiles": 1
+			}
+		},
+		{
+			"name": "file-conversion-xlsx-to-xml",
+			"taskReferenceName": "file_conversion_xlsx_to_xml",
+			"description": "Convert Excel to XML",
+			"optional": false,
+			"type": "SUB_WORKFLOW",
+			"inputParameters": {
+				"mode": "FILE",
+				"file": "${protocol_ftp_get.output.file}",
+				"sheets": [
+					{
+						"name": "Feuil1",
+						"areas": [
+							{
+								"startLine": 1,
+								"startColumn": 1,
+								"endLine": 9,
+								"endColumn": 17
+							}
+						]
+					}
+				]
+			}
+		},
+		{
+			"name": "file-transformation-xslt",
+			"taskReferenceName": "file_transformation_xslt",
+			"description": "Transform xml to import items format",
+			"optional": false,
+			"type": "SUB_WORKFLOW",
+			"inputParameters": {
+				"mode": "FILE",
+				"file": "${file_conversion_xlsx_to_xml.output.file}",
+				"xslt": "file://assets/import_items.xslt",
+				"fileName": "result.xml"
+			}
+		},
+		{
+			"name": "table-import-items",
+			"taskReferenceName": "table_import_items",
+			"description": "Import xml file",
+			"optional": false,
+			"type": "SUB_WORKFLOW",
+			"inputParameters": {
+				"request": "${file_conversion_xlsx_to_xml.output.file}"
+			}
+		}
+	]
+}
