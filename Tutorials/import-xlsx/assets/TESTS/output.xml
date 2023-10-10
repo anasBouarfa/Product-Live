@@ -3,43 +3,77 @@
    <Items>
       <Item partition="976">
          <Identifier key="pid">124005</Identifier>
-         <Classification key="categoriesSarenza">Mid Hautes</Classification>
-         <Field key="42">Albanie</Field>
-         <Field key="brand">Jordan</Field>
-         <Identifier key="pid">124005</Identifier>
-         <Classification key="categoriesSarenza">Mid Hautes</Classification>
-         <Field key="42">Albanie</Field>
-         <Field key="brand">Jordan</Field>
-         <Identifier key="pid">124005</Identifier>
-         <Classification key="categoriesSarenza">Mid Hautes</Classification>
-         <Field key="42">Albanie</Field>
-         <Field key="brand">Jordan</Field>
-         <Identifier key="pid">124005</Identifier>
-         <Classification key="categoriesSarenza">Mid Hautes</Classification>
-         <Field key="42">Albanie</Field>
-         <Field key="brand">Jordan</Field>
-         <Identifier key="pid">124005</Identifier>
-         <Classification key="categoriesSarenza">Mid Hautes</Classification>
-         <Field key="42">Albanie</Field>
-         <Field key="brand">Jordan</Field>
-         <Identifier key="pid">124005</Identifier>
-         <Classification key="categoriesSarenza">Mid Hautes</Classification>
-         <Field key="42">Albanie</Field>
-         <Field key="brand">Jordan</Field>
-         <Identifier key="pid">124005</Identifier>
-         <Classification key="categoriesSarenza">Mid Hautes</Classification>
-         <Field key="42">Albanie</Field>
-         <Field key="brand">Jordan</Field>
+         <Classification key="categoriesSarenza">191</Classification>
+         <Field key="42">600</Field>
+         <Field key="brand">1363</Field>
+         <Item>
+            <Identifier key="pcid">988000</Identifier>
+            <Field key="174">3015</Field>
+            <Item>
+               <Identifier key="vid">1000001</Identifier>
+               <Field key="advised_sale_price">77</Field>
+            </Item>
+         </Item>
+         <Item>
+            <Identifier key="pcid">988001</Identifier>
+            <Field key="174">3015</Field>
+            <Item>
+               <Identifier key="vid">1000002</Identifier>
+               <Field key="advised_sale_price">77</Field>
+            </Item>
+         </Item>
+         <Item>
+            <Identifier key="pcid">988006</Identifier>
+            <Field key="174">3015</Field>
+            <Item>
+               <Identifier key="vid">1000003</Identifier>
+               <Field key="advised_sale_price">77</Field>
+            </Item>
+         </Item>
+         <Item>
+            <Identifier key="pcid">988008</Identifier>
+            <Field key="174">3015</Field>
+            <Item>
+               <Identifier key="vid">1000004</Identifier>
+               <Field key="advised_sale_price">77</Field>
+            </Item>
+         </Item>
+         <Item>
+            <Identifier key="pcid">988009</Identifier>
+            <Field key="174">3015</Field>
+            <Item>
+               <Identifier key="vid">1000005</Identifier>
+               <Field key="advised_sale_price">77</Field>
+            </Item>
+         </Item>
+         <Item>
+            <Identifier key="pcid">988010</Identifier>
+            <Field key="174">3015</Field>
+            <Item>
+               <Identifier key="vid">1000006</Identifier>
+               <Field key="advised_sale_price">77</Field>
+            </Item>
+         </Item>
+         <Item>
+            <Identifier key="pcid">987000</Identifier>
+            <Field key="174">3015</Field>
+            <Item>
+               <Identifier key="vid">1000007</Identifier>
+               <Field key="advised_sale_price">77</Field>
+            </Item>
+         </Item>
          <Identifier key="pid">123001</Identifier>
-         <Classification key="categoriesSarenza">Baskets</Classification>
-         <Field key="42">Asie</Field>
-         <Field key="brand">Nike</Field>
-      </Item>
-      <Item partition="ACTIVES">
-         <Identifier key="EAN_13">1234567890124</Identifier>
-         <Classification key="TYPOLOGY">LAPTOPS</Classification>
-         <Field key="TITLE_EN">Laptop 2</Field>
-         <Field key="DESCRIPTION_EN" delete="true"/>
+         <Classification key="categoriesSarenza">11</Classification>
+         <Field key="42">551</Field>
+         <Field key="brand">439</Field>
+         <Item>
+            <Identifier key="pcid">987001</Identifier>
+            <Field key="174">3015</Field>
+            <Item>
+               <Identifier key="vid">1234001</Identifier>
+               <Field key="advised_sale_price">98</Field>
+            </Item>
+         </Item>
       </Item>
    </Items>
 </Table>

@@ -47,6 +47,18 @@
 			}
 		},
 		{
+			"name": "table-export-schema",
+			"taskReferenceName": "table_export_schema",
+			"description": "Export table schema",
+			"optional": false,
+			"type": "SUB_WORKFLOW",
+			"inputParameters": {
+				"tableKey": "PRODUCTS_SARENZA",
+				"mode": "ACTIVE",
+				"fileName": "table.xml"
+			}
+		},
+		{
 			"name": "file-transformation-xslt",
 			"taskReferenceName": "file_transformation_xslt",
 			"description": "Transform xml to import items format",
@@ -56,7 +68,13 @@
 				"mode": "FILE",
 				"file": "${file_conversion_xlsx_to_xml.output.file}",
 				"xslt": "file://assets/import_items.xslt",
-				"fileName": "result.xml"
+				"fileName": "result.xml",
+				"params": [
+					{
+						"name": "table_url",
+						"select": "${table_export_schema.output.file}"
+					}
+				]
 			}
 		},
 		{
