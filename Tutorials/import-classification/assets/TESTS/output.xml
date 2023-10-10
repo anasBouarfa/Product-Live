@@ -1,0 +1,1688 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Table key="PRODUCTS_SARENZA">
+   <Title>Produits</Title>
+   <Title-Local lang="fra">Produits</Title-Local>
+   <Color>RED</Color>
+   <Position>1</Position>
+   <Schema>
+      <Classifications key="categoriesSarenza">
+         <Title>Catégorisation achat</Title>
+         <Categories>
+            <Category key="4">
+               <Title>Entretien</Title>
+            </Category>
+            <Category key="1">
+               <Title>Accessoires</Title>
+            </Category>
+            <Category key="3">
+               <Title>Chaussures</Title>
+            </Category>
+            <Category key="5">
+               <Title>Sacs</Title>
+            </Category>
+            <Category key="2">
+               <Title>Chaussettes</Title>
+            </Category>
+            <Category key="323">
+               <Title>Prêt à Porter</Title>
+            </Category>
+            <Category key="6" parent="4">
+               <Title>Accessoires chaussures</Title>
+            </Category>
+            <Category key="8" parent="1">
+               <Title>Accessoires sport perf (old)</Title>
+            </Category>
+            <Category key="9" parent="1">
+               <Title>Accessoires Textiles (old)</Title>
+            </Category>
+            <Category key="10" parent="1">
+               <Title>Autres Accessoires Textiles (old)</Title>
+            </Category>
+            <Category key="11" parent="3">
+               <Title>Baskets </Title>
+            </Category>
+            <Category key="12" parent="1">
+               <Title>Bijoux (old)</Title>
+            </Category>
+            <Category key="13" parent="3">
+               <Title>Bottes, Bottines et boots</Title>
+            </Category>
+            <Category key="15" parent="5">
+               <Title>Business et tech</Title>
+            </Category>
+            <Category key="17" parent="1">
+               <Title>Ceintures (old)</Title>
+            </Category>
+            <Category key="18" parent="2">
+               <Title>Chaussettes</Title>
+            </Category>
+            <Category key="19" parent="3">
+               <Title>Chaussons</Title>
+            </Category>
+            <Category key="20" parent="3">
+               <Title>Chaussures de sport</Title>
+            </Category>
+            <Category key="21" parent="3">
+               <Title>Chaussures d'été</Title>
+            </Category>
+            <Category key="22" parent="3">
+               <Title>Chaussures de ville</Title>
+            </Category>
+            <Category key="23" parent="2">
+               <Title>Collants</Title>
+            </Category>
+            <Category key="24" parent="5">
+               <Title>Petite Maroquinerie</Title>
+            </Category>
+            <Category key="26" parent="5">
+               <Title>Sacs</Title>
+            </Category>
+            <Category key="28" parent="5">
+               <Title>Voyage</Title>
+            </Category>
+            <Category key="27" parent="5">
+               <Title>Scolaire</Title>
+            </Category>
+            <Category key="25" parent="4">
+               <Title>Produits d'entretien</Title>
+            </Category>
+            <Category key="7" parent="4">
+               <Title>Accessoires d'entretien</Title>
+            </Category>
+            <Category key="261" parent="1">
+               <Title>Accessoire cheveux</Title>
+            </Category>
+            <Category key="262" parent="1">
+               <Title>Accessoire de tête</Title>
+            </Category>
+            <Category key="263" parent="1">
+               <Title>Accessoire textile</Title>
+            </Category>
+            <Category key="264" parent="1">
+               <Title>Ceinture</Title>
+            </Category>
+            <Category key="265" parent="1">
+               <Title>Accessoire autre</Title>
+            </Category>
+            <Category key="266" parent="1">
+               <Title>Accessoire sport perf</Title>
+            </Category>
+            <Category key="267" parent="1">
+               <Title>Bijou</Title>
+            </Category>
+            <Category key="324" parent="323">
+               <Title>Chemise &amp; top &amp; blouse</Title>
+            </Category>
+            <Category key="325" parent="323">
+               <Title>T-shirt &amp; polo &amp; body</Title>
+            </Category>
+            <Category key="326" parent="323">
+               <Title>Combinaison &amp; salopette</Title>
+            </Category>
+            <Category key="327" parent="323">
+               <Title>Costume et tailleur</Title>
+            </Category>
+            <Category key="328" parent="323">
+               <Title>Ensemble</Title>
+            </Category>
+            <Category key="329" parent="323">
+               <Title>Jean</Title>
+            </Category>
+            <Category key="342" parent="323">
+               <Title>Jupe</Title>
+            </Category>
+            <Category key="330" parent="323">
+               <Title>Pantalon</Title>
+            </Category>
+            <Category key="331" parent="323">
+               <Title>Pull &amp; gilet</Title>
+            </Category>
+            <Category key="332" parent="323">
+               <Title>Sweatshirt</Title>
+            </Category>
+            <Category key="333" parent="323">
+               <Title>Robe</Title>
+            </Category>
+            <Category key="334" parent="323">
+               <Title>Short</Title>
+            </Category>
+            <Category key="335" parent="323">
+               <Title>Veste</Title>
+            </Category>
+            <Category key="336" parent="323">
+               <Title>Manteau</Title>
+            </Category>
+            <Category key="337" parent="323">
+               <Title>Bain</Title>
+            </Category>
+            <Category key="341" parent="323">
+               <Title>Sous-vêtement</Title>
+            </Category>
+            <Category key="581" parent="1">
+               <Title>Montres</Title>
+            </Category>
+            <Category key="582" parent="1">
+               <Title>Lunettes</Title>
+            </Category>
+            <Category key="584" parent="1">
+               <Title>Bijoux</Title>
+            </Category>
+            <Category key="14" parent="3">
+               <Title>Bottillons</Title>
+            </Category>
+            <Category key="16" parent="3">
+               <Title>Cadeaux de naissance</Title>
+            </Category>
+            <Category key="338" parent="323">
+               <Title>Cadeau de naissance</Title>
+            </Category>
+            <Category key="339" parent="323">
+               <Title>Body enfant</Title>
+            </Category>
+            <Category key="340" parent="323">
+               <Title>Nuit</Title>
+            </Category>
+            <Category key="29" parent="15">
+               <Title>Accessoires business</Title>
+            </Category>
+            <Category key="30" parent="28">
+               <Title>Accessoires de voyage</Title>
+            </Category>
+            <Category key="32" parent="8">
+               <Title>Accessoires sport perf (old)</Title>
+            </Category>
+            <Category key="33" parent="6">
+               <Title>Autres accessoires</Title>
+            </Category>
+            <Category key="34" parent="10">
+               <Title>Autres Accessoires Textiles (old)</Title>
+            </Category>
+            <Category key="35" parent="19">
+               <Title>Autres chaussons</Title>
+            </Category>
+            <Category key="39" parent="22">
+               <Title>Ballerines &amp;co</Title>
+            </Category>
+            <Category key="40" parent="23">
+               <Title>Bas</Title>
+            </Category>
+            <Category key="41" parent="11">
+               <Title>Baskets lifestyle</Title>
+            </Category>
+            <Category key="42" parent="11">
+               <Title>Baskets toile</Title>
+            </Category>
+            <Category key="43" parent="11">
+               <Title>Baskets ville</Title>
+            </Category>
+            <Category key="45" parent="12">
+               <Title>Bijoux (old)</Title>
+            </Category>
+            <Category key="46" parent="9">
+               <Title>Bonnets Bandeaux mode</Title>
+            </Category>
+            <Category key="47" parent="13">
+               <Title>Bottes</Title>
+            </Category>
+            <Category key="48" parent="13">
+               <Title>Bottes météo</Title>
+            </Category>
+            <Category key="50" parent="13">
+               <Title>Bottines et boots</Title>
+            </Category>
+            <Category key="52" parent="17">
+               <Title>Ceintures fine</Title>
+            </Category>
+            <Category key="53" parent="17">
+               <Title>Ceintures large</Title>
+            </Category>
+            <Category key="54" parent="17">
+               <Title>Ceintures medium</Title>
+            </Category>
+            <Category key="55" parent="9">
+               <Title>Chapeaux Casquettes Bobs</Title>
+            </Category>
+            <Category key="56" parent="19">
+               <Title>Charentaises</Title>
+            </Category>
+            <Category key="57" parent="18">
+               <Title>Chaussettes</Title>
+            </Category>
+            <Category key="58" parent="18">
+               <Title>Chaussettes Techniques</Title>
+            </Category>
+            <Category key="59" parent="19">
+               <Title>Chaussons ballerines</Title>
+            </Category>
+            <Category key="62" parent="18">
+               <Title>Chaussons Chaussettes et anti-dérapant</Title>
+            </Category>
+            <Category key="64" parent="19">
+               <Title>Chaussons montants</Title>
+            </Category>
+            <Category key="65" parent="19">
+               <Title>Chaussons mules</Title>
+            </Category>
+            <Category key="66" parent="19">
+               <Title>Chaussons slip-on</Title>
+            </Category>
+            <Category key="68" parent="22">
+               <Title>Chaussures à lacets &amp;co</Title>
+            </Category>
+            <Category key="70" parent="20">
+               <Title>Chaussures de sport</Title>
+            </Category>
+            <Category key="72" parent="23">
+               <Title>Collants Fantaisies</Title>
+            </Category>
+            <Category key="73" parent="23">
+               <Title>Collants Opaques</Title>
+            </Category>
+            <Category key="74" parent="23">
+               <Title>Collants Transparents</Title>
+            </Category>
+            <Category key="75" parent="9">
+               <Title>Echarpes Etoles Tubes (tricot)</Title>
+            </Category>
+            <Category key="76" parent="6">
+               <Title>Embauchoirs et tendeurs</Title>
+            </Category>
+            <Category key="77" parent="22">
+               <Title>Escarpins &amp;co</Title>
+            </Category>
+            <Category key="78" parent="21">
+               <Title>Espadrilles et semelles corde</Title>
+            </Category>
+            <Category key="79" parent="9">
+               <Title>Foulards (C&amp;T)</Title>
+            </Category>
+            <Category key="80" parent="9">
+               <Title>Gants (old)</Title>
+            </Category>
+            <Category key="81" parent="18">
+               <Title>Guêtres</Title>
+            </Category>
+            <Category key="82" parent="18">
+               <Title>Invisibles</Title>
+            </Category>
+            <Category key="83" parent="6">
+               <Title>Lacets</Title>
+            </Category>
+            <Category key="84" parent="23">
+               <Title>Leggings</Title>
+            </Category>
+            <Category key="85" parent="26">
+               <Title>Lunch bags et bentos</Title>
+            </Category>
+            <Category key="86" parent="23">
+               <Title>Mi-bas</Title>
+            </Category>
+            <Category key="87" parent="18">
+               <Title>Mini socquettes</Title>
+            </Category>
+            <Category key="89" parent="22">
+               <Title>Mocassins, bateaux &amp;co</Title>
+            </Category>
+            <Category key="93" parent="21">
+               <Title>Mules et sabots</Title>
+            </Category>
+            <Category key="94" parent="21">
+               <Title>Nu-pieds</Title>
+            </Category>
+            <Category key="95" parent="21">
+               <Title>Plastiques d'été</Title>
+            </Category>
+            <Category key="96" parent="24">
+               <Title>Porte-cartes</Title>
+            </Category>
+            <Category key="97" parent="24">
+               <Title>Porte-clés</Title>
+            </Category>
+            <Category key="98" parent="24">
+               <Title>Portefeuilles</Title>
+            </Category>
+            <Category key="99" parent="24">
+               <Title>Porte-monnaie</Title>
+            </Category>
+            <Category key="100" parent="21">
+               <Title>Riversandales</Title>
+            </Category>
+            <Category key="101" parent="26">
+               <Title>Sacs à dos</Title>
+            </Category>
+            <Category key="102" parent="26">
+               <Title>Sacs à main</Title>
+            </Category>
+            <Category key="103" parent="26">
+               <Title>Sacs banane</Title>
+            </Category>
+            <Category key="104" parent="15">
+               <Title>Sacs business</Title>
+            </Category>
+            <Category key="105" parent="26">
+               <Title>Sacs de sport</Title>
+            </Category>
+            <Category key="106" parent="28">
+               <Title>Sacs de voyage</Title>
+            </Category>
+            <Category key="107" parent="26">
+               <Title>Sacs duffle et weekend</Title>
+            </Category>
+            <Category key="108" parent="26">
+               <Title>Sacs puériculture</Title>
+            </Category>
+            <Category key="111" parent="21">
+               <Title>Sandales</Title>
+            </Category>
+            <Category key="113" parent="21">
+               <Title>Sandales footbed</Title>
+            </Category>
+            <Category key="116" parent="6">
+               <Title>Semelles</Title>
+            </Category>
+            <Category key="117" parent="18">
+               <Title>Socquettes</Title>
+            </Category>
+            <Category key="118" parent="24">
+               <Title>Trousses et Pochettes</Title>
+            </Category>
+            <Category key="119" parent="24">
+               <Title>Trousses maquillage</Title>
+            </Category>
+            <Category key="120" parent="28">
+               <Title>Valises</Title>
+            </Category>
+            <Category key="109" parent="27">
+               <Title>Sacs scolaires</Title>
+            </Category>
+            <Category key="67" parent="22">
+               <Title>Chaussures à lacets</Title>
+            </Category>
+            <Category key="31" parent="27">
+               <Title>Accessoires scolaires</Title>
+            </Category>
+            <Category key="259" parent="25">
+               <Title>Produits d'entretien</Title>
+            </Category>
+            <Category key="260" parent="7">
+               <Title>Accessoires d'entretien</Title>
+            </Category>
+            <Category key="268" parent="261">
+               <Title>Accessoire cheveux</Title>
+            </Category>
+            <Category key="273" parent="262">
+               <Title>Chapeau</Title>
+            </Category>
+            <Category key="274" parent="262">
+               <Title>Bonnet</Title>
+            </Category>
+            <Category key="275" parent="262">
+               <Title>Casquette</Title>
+            </Category>
+            <Category key="277" parent="263">
+               <Title>Gant &amp; moufle</Title>
+            </Category>
+            <Category key="278" parent="263">
+               <Title>Echarpe &amp; foulard</Title>
+            </Category>
+            <Category key="281" parent="263">
+               <Title>Autres accessoires textiles</Title>
+            </Category>
+            <Category key="282" parent="264">
+               <Title>Ceinture</Title>
+            </Category>
+            <Category key="283" parent="264">
+               <Title>Ceinture large et taille</Title>
+            </Category>
+            <Category key="284" parent="264">
+               <Title>Ceinture tressée</Title>
+            </Category>
+            <Category key="285" parent="265">
+               <Title>Parapluie</Title>
+            </Category>
+            <Category key="286" parent="265">
+               <Title>Lunettes de soleil</Title>
+            </Category>
+            <Category key="288" parent="265">
+               <Title>Accessoire autres</Title>
+            </Category>
+            <Category key="289" parent="266">
+               <Title>Accessoires sport perf</Title>
+            </Category>
+            <Category key="290" parent="267">
+               <Title>Bijou</Title>
+            </Category>
+            <Category key="343" parent="324">
+               <Title>Chemise</Title>
+            </Category>
+            <Category key="345" parent="324">
+               <Title>Blouse</Title>
+            </Category>
+            <Category key="344" parent="324">
+               <Title>Top</Title>
+            </Category>
+            <Category key="425" parent="325">
+               <Title>T-shirt</Title>
+            </Category>
+            <Category key="426" parent="325">
+               <Title>Polo</Title>
+            </Category>
+            <Category key="580" parent="325">
+               <Title>Body</Title>
+            </Category>
+            <Category key="424" parent="326">
+               <Title>Combinaison</Title>
+            </Category>
+            <Category key="423" parent="326">
+               <Title>Salopette</Title>
+            </Category>
+            <Category key="422" parent="327">
+               <Title>Veste de costume</Title>
+            </Category>
+            <Category key="421" parent="327">
+               <Title>Pantalon de costume</Title>
+            </Category>
+            <Category key="419" parent="327">
+               <Title>Costume</Title>
+            </Category>
+            <Category key="418" parent="328">
+               <Title>Ensemble</Title>
+            </Category>
+            <Category key="415" parent="328">
+               <Title>Ensemble de survêtement</Title>
+            </Category>
+            <Category key="414" parent="329">
+               <Title>Jean skinny</Title>
+            </Category>
+            <Category key="413" parent="329">
+               <Title>Jean slim</Title>
+            </Category>
+            <Category key="412" parent="329">
+               <Title>Jean droit</Title>
+            </Category>
+            <Category key="409" parent="329">
+               <Title>Jean large</Title>
+            </Category>
+            <Category key="410" parent="329">
+               <Title>Jean boyfriend</Title>
+            </Category>
+            <Category key="408" parent="329">
+               <Title>Jean cargo</Title>
+            </Category>
+            <Category key="407" parent="329">
+               <Title>Jean mom</Title>
+            </Category>
+            <Category key="405" parent="342">
+               <Title>Jupe mini</Title>
+            </Category>
+            <Category key="404" parent="342">
+               <Title>Jupe midi</Title>
+            </Category>
+            <Category key="403" parent="342">
+               <Title>Jupe maxi</Title>
+            </Category>
+            <Category key="402" parent="330">
+               <Title>Pantalon slim</Title>
+            </Category>
+            <Category key="401" parent="330">
+               <Title>Pantalon droit</Title>
+            </Category>
+            <Category key="400" parent="330">
+               <Title>Pantalon large</Title>
+            </Category>
+            <Category key="399" parent="330">
+               <Title>Pantalon chino</Title>
+            </Category>
+            <Category key="398" parent="330">
+               <Title>Pantalon legging et collant</Title>
+            </Category>
+            <Category key="397" parent="330">
+               <Title>Pantalon à pinces</Title>
+            </Category>
+            <Category key="395" parent="330">
+               <Title>Pantalon Cargo et worker</Title>
+            </Category>
+            <Category key="394" parent="330">
+               <Title>Pantalon carotte</Title>
+            </Category>
+            <Category key="393" parent="330">
+               <Title>Jupe culotte</Title>
+            </Category>
+            <Category key="392" parent="330">
+               <Title>Pantalon en cuir</Title>
+            </Category>
+            <Category key="391" parent="330">
+               <Title>Pantalon de survêtement</Title>
+            </Category>
+            <Category key="390" parent="331">
+               <Title>Pull</Title>
+            </Category>
+            <Category key="389" parent="331">
+               <Title>Gilet</Title>
+            </Category>
+            <Category key="388" parent="331">
+               <Title>Polaire</Title>
+            </Category>
+            <Category key="387" parent="332">
+               <Title>Sweatshirt hoodie</Title>
+            </Category>
+            <Category key="386" parent="332">
+               <Title>Sweatshirt</Title>
+            </Category>
+            <Category key="385" parent="333">
+               <Title>Robe mini</Title>
+            </Category>
+            <Category key="384" parent="333">
+               <Title>Robe midi</Title>
+            </Category>
+            <Category key="383" parent="333">
+               <Title>Robe maxi</Title>
+            </Category>
+            <Category key="382" parent="333">
+               <Title>Robe chemise</Title>
+            </Category>
+            <Category key="381" parent="333">
+               <Title>Robe de cérémonie</Title>
+            </Category>
+            <Category key="380" parent="334">
+               <Title>Short &amp; bermuda</Title>
+            </Category>
+            <Category key="378" parent="335">
+               <Title>Veste trench</Title>
+            </Category>
+            <Category key="377" parent="335">
+               <Title>Veste blazer</Title>
+            </Category>
+            <Category key="376" parent="335">
+               <Title>Veste autre</Title>
+            </Category>
+            <Category key="375" parent="335">
+               <Title>Veste blouson</Title>
+            </Category>
+            <Category key="379" parent="335">
+               <Title>Veste Parka</Title>
+            </Category>
+            <Category key="374" parent="335">
+               <Title>Veste imperméable</Title>
+            </Category>
+            <Category key="373" parent="335">
+               <Title>Veste sans manche</Title>
+            </Category>
+            <Category key="372" parent="335">
+               <Title>Veste fourure et fausse fourure</Title>
+            </Category>
+            <Category key="371" parent="335">
+               <Title>Veste en jean</Title>
+            </Category>
+            <Category key="370" parent="335">
+               <Title>Veste en cuir</Title>
+            </Category>
+            <Category key="368" parent="335">
+               <Title>Veste de sport</Title>
+            </Category>
+            <Category key="367" parent="336">
+               <Title>Doudoune</Title>
+            </Category>
+            <Category key="366" parent="336">
+               <Title>Cape</Title>
+            </Category>
+            <Category key="365" parent="336">
+               <Title>Manteau caban duffle coat</Title>
+            </Category>
+            <Category key="364" parent="336">
+               <Title>Manteau court</Title>
+            </Category>
+            <Category key="363" parent="336">
+               <Title>Manteau mi-long</Title>
+            </Category>
+            <Category key="362" parent="336">
+               <Title>Manteau long</Title>
+            </Category>
+            <Category key="356" parent="337">
+               <Title>Maillot de bain 1 pièce</Title>
+            </Category>
+            <Category key="357" parent="337">
+               <Title>Maillot de bain coordonné</Title>
+            </Category>
+            <Category key="358" parent="337">
+               <Title>Maillot de bain haut</Title>
+            </Category>
+            <Category key="359" parent="337">
+               <Title>Maillot de bain bas</Title>
+            </Category>
+            <Category key="346" parent="341">
+               <Title>Sous-vêtement sport</Title>
+            </Category>
+            <Category key="583" parent="582">
+               <Title>Lunettes de soleil</Title>
+            </Category>
+            <Category key="585" parent="584">
+               <Title>Boucles d'oreille</Title>
+            </Category>
+            <Category key="586" parent="584">
+               <Title>Collier</Title>
+            </Category>
+            <Category key="587" parent="584">
+               <Title>Bracelet</Title>
+            </Category>
+            <Category key="588" parent="584">
+               <Title>Bague</Title>
+            </Category>
+            <Category key="589" parent="584">
+               <Title>Pendentif</Title>
+            </Category>
+            <Category key="590" parent="584">
+               <Title>Broche</Title>
+            </Category>
+            <Category key="591" parent="584">
+               <Title>Piercing</Title>
+            </Category>
+            <Category key="592" parent="584">
+               <Title>Boutons de manchette</Title>
+            </Category>
+            <Category key="69" parent="22">
+               <Title>Chaussures bateaux &amp;co</Title>
+            </Category>
+            <Category key="88" parent="22">
+               <Title>Mocassins &amp;co</Title>
+            </Category>
+            <Category key="90" parent="22">
+               <Title>Monks et chaussures boucles</Title>
+            </Category>
+            <Category key="91" parent="21">
+               <Title>Mules et autres</Title>
+            </Category>
+            <Category key="280" parent="263">
+               <Title>Nœud papillon</Title>
+            </Category>
+            <Category key="287" parent="265">
+               <Title>Accessoire costume</Title>
+            </Category>
+            <Category key="420" parent="327">
+               <Title>Gilet de costume</Title>
+            </Category>
+            <Category key="406" parent="329">
+               <Title>Jean tapered</Title>
+            </Category>
+            <Category key="369" parent="335">
+               <Title>Veste vareuse et enfilable</Title>
+            </Category>
+            <Category key="36" parent="22">
+               <Title>Autres chaussures ville</Title>
+            </Category>
+            <Category key="37" parent="22">
+               <Title>Babies</Title>
+            </Category>
+            <Category key="38" parent="22">
+               <Title>Ballerines</Title>
+            </Category>
+            <Category key="44" parent="22">
+               <Title>Baskets ville</Title>
+            </Category>
+            <Category key="49" parent="14">
+               <Title>Bottillons</Title>
+            </Category>
+            <Category key="51" parent="16">
+               <Title>Cadeaux de naissance</Title>
+            </Category>
+            <Category key="60" parent="19">
+               <Title>Chaussons bottillons</Title>
+            </Category>
+            <Category key="61" parent="19">
+               <Title>Chaussons chaussettes</Title>
+            </Category>
+            <Category key="63" parent="19">
+               <Title>Chaussons cuir</Title>
+            </Category>
+            <Category key="71" parent="23">
+               <Title>Collants Enfants</Title>
+            </Category>
+            <Category key="92" parent="21">
+               <Title>Mules et autres chaussures d'été</Title>
+            </Category>
+            <Category key="110" parent="22">
+               <Title>Salomés</Title>
+            </Category>
+            <Category key="114" parent="21">
+               <Title>Sandales semelles épaisses souples</Title>
+            </Category>
+            <Category key="115" parent="21">
+               <Title>Sandales semelles fines rigides</Title>
+            </Category>
+            <Category key="269" parent="261">
+               <Title>Couronne</Title>
+            </Category>
+            <Category key="270" parent="261">
+               <Title>Barettes cheveux</Title>
+            </Category>
+            <Category key="271" parent="261">
+               <Title>Elastique cheveux</Title>
+            </Category>
+            <Category key="272" parent="261">
+               <Title>Bandeau cheveux</Title>
+            </Category>
+            <Category key="276" parent="262">
+               <Title>Accessoire de tête autre</Title>
+            </Category>
+            <Category key="417" parent="328">
+               <Title>Ensemble d'été</Title>
+            </Category>
+            <Category key="416" parent="328">
+               <Title>Ensemble d'hiver</Title>
+            </Category>
+            <Category key="411" parent="329">
+               <Title>Jegging</Title>
+            </Category>
+            <Category key="396" parent="330">
+               <Title>Pantalon Casual</Title>
+            </Category>
+            <Category key="361" parent="336">
+               <Title>Combi-pilote</Title>
+            </Category>
+            <Category key="360" parent="337">
+               <Title>Accessoire</Title>
+            </Category>
+            <Category key="355" parent="338">
+               <Title>Coffret</Title>
+            </Category>
+            <Category key="354" parent="339">
+               <Title>Body manches courtes</Title>
+            </Category>
+            <Category key="353" parent="339">
+               <Title>Body manches longues</Title>
+            </Category>
+            <Category key="352" parent="339">
+               <Title>Body débardeurs</Title>
+            </Category>
+            <Category key="351" parent="340">
+               <Title>Vêtement</Title>
+            </Category>
+            <Category key="349" parent="340">
+               <Title>Pyjama</Title>
+            </Category>
+            <Category key="350" parent="340">
+               <Title>Accessoire de nuit</Title>
+            </Category>
+            <Category key="348" parent="341">
+               <Title>Culotte et slip</Title>
+            </Category>
+            <Category key="347" parent="341">
+               <Title>Caleçon</Title>
+            </Category>
+            <Category key="121" parent="29">
+               <Title>Autres accessoires</Title>
+            </Category>
+            <Category key="122" parent="30">
+               <Title>Autres accessoires de voyage</Title>
+            </Category>
+            <Category key="126" parent="95">
+               <Title>Autres plastiques d'été</Title>
+            </Category>
+            <Category key="130" parent="39">
+               <Title>Babies</Title>
+            </Category>
+            <Category key="131" parent="39">
+               <Title>Ballerines</Title>
+            </Category>
+            <Category key="132" parent="41">
+               <Title>Baskets slip-on</Title>
+            </Category>
+            <Category key="135" parent="42">
+               <Title>Baskets toile basses</Title>
+            </Category>
+            <Category key="138" parent="42">
+               <Title>Baskets toile montantes</Title>
+            </Category>
+            <Category key="141" parent="42">
+               <Title>Baskets toile slip-on</Title>
+            </Category>
+            <Category key="144" parent="43">
+               <Title>Baskets ville basses</Title>
+            </Category>
+            <Category key="147" parent="43">
+               <Title>Baskets ville compensées</Title>
+            </Category>
+            <Category key="149" parent="43">
+               <Title>Baskets ville montantes</Title>
+            </Category>
+            <Category key="152" parent="50">
+               <Title>Boots d'été</Title>
+            </Category>
+            <Category key="153" parent="48">
+               <Title>Boots fourrées</Title>
+            </Category>
+            <Category key="157" parent="50">
+               <Title>Boots zippées</Title>
+            </Category>
+            <Category key="158" parent="48">
+               <Title>Bottes de neige et après-ski</Title>
+            </Category>
+            <Category key="161" parent="48">
+               <Title>Bottes de pluie</Title>
+            </Category>
+            <Category key="164" parent="50">
+               <Title>Bottines et boots lacées</Title>
+            </Category>
+            <Category key="167" parent="102">
+               <Title>Cabas et Shopping bags</Title>
+            </Category>
+            <Category key="168" parent="102">
+               <Title>Cabas textiles</Title>
+            </Category>
+            <Category key="169" parent="109">
+               <Title>Cartables</Title>
+            </Category>
+            <Category key="170" parent="109">
+               <Title>Cartables à roulettes</Title>
+            </Category>
+            <Category key="171" parent="89">
+               <Title>Chaussures bateaux</Title>
+            </Category>
+            <Category key="172" parent="50">
+               <Title>Chelsea</Title>
+            </Category>
+            <Category key="177" parent="78">
+               <Title>Compensées</Title>
+            </Category>
+            <Category key="179" parent="67">
+               <Title>Derby</Title>
+            </Category>
+            <Category key="180" parent="68">
+               <Title>Derby</Title>
+            </Category>
+            <Category key="181" parent="77">
+               <Title>Escarpins Babies </Title>
+            </Category>
+            <Category key="182" parent="77">
+               <Title>Escarpins decolleté fermé</Title>
+            </Category>
+            <Category key="183" parent="77">
+               <Title>Escarpins decolleté open-toe</Title>
+            </Category>
+            <Category key="184" parent="77">
+               <Title>Escarpins d'Orsay</Title>
+            </Category>
+            <Category key="185" parent="77">
+               <Title>Escarpins Slingback</Title>
+            </Category>
+            <Category key="186" parent="29">
+               <Title>Etuis ordi</Title>
+            </Category>
+            <Category key="187" parent="29">
+               <Title>Etuis portable</Title>
+            </Category>
+            <Category key="188" parent="29">
+               <Title>Etuis tablette</Title>
+            </Category>
+            <Category key="189" parent="120">
+               <Title>Lots de Valises</Title>
+            </Category>
+            <Category key="190" parent="50">
+               <Title>Low Boots</Title>
+            </Category>
+            <Category key="191" parent="41">
+               <Title>Mid Hautes</Title>
+            </Category>
+            <Category key="195" parent="89">
+               <Title>Mocassins</Title>
+            </Category>
+            <Category key="200" parent="89">
+               <Title>Mocassins slip-on</Title>
+            </Category>
+            <Category key="201" parent="68">
+               <Title>Monks et chaussures boucles</Title>
+            </Category>
+            <Category key="202" parent="50">
+               <Title>Motardes et Bikers</Title>
+            </Category>
+            <Category key="203" parent="94">
+               <Title>Nu-pieds</Title>
+            </Category>
+            <Category key="204" parent="94">
+               <Title>Nu-pieds Entre-doigts</Title>
+            </Category>
+            <Category key="205" parent="102">
+               <Title>Paniers</Title>
+            </Category>
+            <Category key="206" parent="78">
+               <Title>Plat</Title>
+            </Category>
+            <Category key="207" parent="41">
+               <Title>Plateaux</Title>
+            </Category>
+            <Category key="210" parent="78">
+               <Title>Plateformes</Title>
+            </Category>
+            <Category key="211" parent="102">
+               <Title>Pochettes et minaudières</Title>
+            </Category>
+            <Category key="213" parent="41">
+               <Title>Rétrorunnings</Title>
+            </Category>
+            <Category key="215" parent="67">
+               <Title>Richelieu</Title>
+            </Category>
+            <Category key="216" parent="68">
+               <Title>Richelieu</Title>
+            </Category>
+            <Category key="217" parent="104">
+               <Title>Sacs  à dos business</Title>
+            </Category>
+            <Category key="218" parent="109">
+               <Title>Sacs à dos à roulettes</Title>
+            </Category>
+            <Category key="219" parent="101">
+               <Title>Sacs à dos casual</Title>
+            </Category>
+            <Category key="220" parent="101">
+               <Title>Sacs à dos perf</Title>
+            </Category>
+            <Category key="221" parent="109">
+               <Title>Sacs à dos scolaires</Title>
+            </Category>
+            <Category key="222" parent="101">
+               <Title>Sacs à dos sport</Title>
+            </Category>
+            <Category key="223" parent="101">
+               <Title>Sacs à dos ville</Title>
+            </Category>
+            <Category key="224" parent="102">
+               <Title>Sacs bandoulière homme</Title>
+            </Category>
+            <Category key="225" parent="104">
+               <Title>Sacs ordinateur et Porte-Documents</Title>
+            </Category>
+            <Category key="226" parent="102">
+               <Title>Sacs porté épaule</Title>
+            </Category>
+            <Category key="227" parent="102">
+               <Title>Sacs porté main</Title>
+            </Category>
+            <Category key="228" parent="102">
+               <Title>Sacs porté travers</Title>
+            </Category>
+            <Category key="229" parent="39">
+               <Title>Salomés</Title>
+            </Category>
+            <Category key="230" parent="77">
+               <Title>Salomés</Title>
+            </Category>
+            <Category key="231" parent="111">
+               <Title>Sandales bloc</Title>
+            </Category>
+            <Category key="232" parent="111">
+               <Title>Sandales compensées</Title>
+            </Category>
+            <Category key="233" parent="111">
+               <Title>Sandales plates</Title>
+            </Category>
+            <Category key="234" parent="111">
+               <Title>Sandales talon décroché</Title>
+            </Category>
+            <Category key="235" parent="111">
+               <Title>Sandales talon décroché / patin</Title>
+            </Category>
+            <Category key="236" parent="50">
+               <Title>Santiags et boots Western</Title>
+            </Category>
+            <Category key="237" parent="41">
+               <Title>Baskets casual</Title>
+            </Category>
+            <Category key="240" parent="89">
+               <Title>Slippers</Title>
+            </Category>
+            <Category key="241" parent="94">
+               <Title>Spartiates</Title>
+            </Category>
+            <Category key="242" parent="41">
+               <Title>Technologies visibles</Title>
+            </Category>
+            <Category key="245" parent="41">
+               <Title>Iconiques sport</Title>
+            </Category>
+            <Category key="247" parent="95">
+               <Title>Tongs</Title>
+            </Category>
+            <Category key="250" parent="30">
+               <Title>Trousses de toilette</Title>
+            </Category>
+            <Category key="251" parent="31">
+               <Title>Trousses scolaire</Title>
+            </Category>
+            <Category key="252" parent="120">
+               <Title>Valises Cabine</Title>
+            </Category>
+            <Category key="253" parent="120">
+               <Title>Valises L</Title>
+            </Category>
+            <Category key="254" parent="120">
+               <Title>Valises M</Title>
+            </Category>
+            <Category key="255" parent="120">
+               <Title>Valises S</Title>
+            </Category>
+            <Category key="256" parent="120">
+               <Title>Valises XL</Title>
+            </Category>
+            <Category key="257" parent="50">
+               <Title>Working boots et godillots</Title>
+            </Category>
+            <Category key="291" parent="268">
+               <Title>Accessoire cheveux</Title>
+            </Category>
+            <Category key="296" parent="273">
+               <Title>Chapeau</Title>
+            </Category>
+            <Category key="297" parent="274">
+               <Title>Bonnet</Title>
+            </Category>
+            <Category key="298" parent="274">
+               <Title>Chapka</Title>
+            </Category>
+            <Category key="299" parent="274">
+               <Title>Béret</Title>
+            </Category>
+            <Category key="302" parent="275">
+               <Title>Casquette</Title>
+            </Category>
+            <Category key="304" parent="277">
+               <Title>Gant</Title>
+            </Category>
+            <Category key="305" parent="277">
+               <Title>Mitaine</Title>
+            </Category>
+            <Category key="306" parent="277">
+               <Title>Moufle</Title>
+            </Category>
+            <Category key="307" parent="278">
+               <Title>Echarpe</Title>
+            </Category>
+            <Category key="308" parent="278">
+               <Title>Foulard</Title>
+            </Category>
+            <Category key="309" parent="278">
+               <Title>Chèche</Title>
+            </Category>
+            <Category key="312" parent="281">
+               <Title>Autres accessoires textiles</Title>
+            </Category>
+            <Category key="313" parent="282">
+               <Title>Ceinture</Title>
+            </Category>
+            <Category key="314" parent="283">
+               <Title>Ceinture large et taille</Title>
+            </Category>
+            <Category key="315" parent="284">
+               <Title>Ceinture tressée</Title>
+            </Category>
+            <Category key="316" parent="285">
+               <Title>Parapluie</Title>
+            </Category>
+            <Category key="317" parent="286">
+               <Title>Lunettes de soleil</Title>
+            </Category>
+            <Category key="319" parent="288">
+               <Title>Accessoire autres</Title>
+            </Category>
+            <Category key="320" parent="289">
+               <Title>Accessoires sport perf</Title>
+            </Category>
+            <Category key="321" parent="290">
+               <Title>Bijou</Title>
+            </Category>
+            <Category key="427" parent="343">
+               <Title>Chemise manches longues</Title>
+            </Category>
+            <Category key="428" parent="343">
+               <Title>Chemise manches courtes</Title>
+            </Category>
+            <Category key="429" parent="343">
+               <Title>Chemise sans manches</Title>
+            </Category>
+            <Category key="430" parent="345">
+               <Title>Top &amp; Blouse manches longues</Title>
+            </Category>
+            <Category key="431" parent="345">
+               <Title>Top &amp; Blouse manches courtes</Title>
+            </Category>
+            <Category key="432" parent="344">
+               <Title>Top sans manches</Title>
+            </Category>
+            <Category key="433" parent="344">
+               <Title>Top à bretelles</Title>
+            </Category>
+            <Category key="434" parent="425">
+               <Title>T-shirt débardeur</Title>
+            </Category>
+            <Category key="435" parent="425">
+               <Title>T-shirt manches longues</Title>
+            </Category>
+            <Category key="436" parent="425">
+               <Title>T-shirt manches courtes</Title>
+            </Category>
+            <Category key="437" parent="426">
+               <Title>Polo manches courtes</Title>
+            </Category>
+            <Category key="438" parent="426">
+               <Title>Polo manches longues</Title>
+            </Category>
+            <Category key="439" parent="426">
+               <Title>Polo sans manches</Title>
+            </Category>
+            <Category key="440" parent="580">
+               <Title>Body</Title>
+            </Category>
+            <Category key="441" parent="424">
+               <Title>Combinaison pantalon</Title>
+            </Category>
+            <Category key="442" parent="424">
+               <Title>Combinaison short</Title>
+            </Category>
+            <Category key="443" parent="423">
+               <Title>Salopette</Title>
+            </Category>
+            <Category key="446" parent="422">
+               <Title>Veste de costume</Title>
+            </Category>
+            <Category key="447" parent="421">
+               <Title>Pantalon de costume</Title>
+            </Category>
+            <Category key="449" parent="419">
+               <Title>Costume</Title>
+            </Category>
+            <Category key="450" parent="418">
+               <Title>Ensemble</Title>
+            </Category>
+            <Category key="453" parent="415">
+               <Title>Ensemble de survêtement</Title>
+            </Category>
+            <Category key="454" parent="414">
+               <Title>Jean skinny</Title>
+            </Category>
+            <Category key="455" parent="413">
+               <Title>Jean slim</Title>
+            </Category>
+            <Category key="456" parent="412">
+               <Title>Jean droit</Title>
+            </Category>
+            <Category key="457" parent="409">
+               <Title>Jean large</Title>
+            </Category>
+            <Category key="459" parent="410">
+               <Title>Jean boyfriend</Title>
+            </Category>
+            <Category key="460" parent="409">
+               <Title>Jean bootcut / Flare</Title>
+            </Category>
+            <Category key="461" parent="408">
+               <Title>Jean cargo et worker</Title>
+            </Category>
+            <Category key="462" parent="407">
+               <Title>Jean mom</Title>
+            </Category>
+            <Category key="464" parent="405">
+               <Title>Jupe mini</Title>
+            </Category>
+            <Category key="465" parent="404">
+               <Title>Jupe midi</Title>
+            </Category>
+            <Category key="466" parent="403">
+               <Title>Jupe maxi</Title>
+            </Category>
+            <Category key="467" parent="402">
+               <Title>Pantalon slim</Title>
+            </Category>
+            <Category key="468" parent="401">
+               <Title>Pantalon droit</Title>
+            </Category>
+            <Category key="469" parent="400">
+               <Title>Pantalon large</Title>
+            </Category>
+            <Category key="471" parent="399">
+               <Title>Pantalon chino</Title>
+            </Category>
+            <Category key="472" parent="398">
+               <Title>Pantalon legging</Title>
+            </Category>
+            <Category key="473" parent="397">
+               <Title>Pantalon à pinces</Title>
+            </Category>
+            <Category key="475" parent="395">
+               <Title>Pantalon Cargo et worker</Title>
+            </Category>
+            <Category key="476" parent="394">
+               <Title>Pantalon carotte</Title>
+            </Category>
+            <Category key="477" parent="393">
+               <Title>Jupe culotte</Title>
+            </Category>
+            <Category key="478" parent="392">
+               <Title>Pantalon en cuir</Title>
+            </Category>
+            <Category key="479" parent="391">
+               <Title>Pantalon de survêtement</Title>
+            </Category>
+            <Category key="480" parent="390">
+               <Title>Pull manches courtes</Title>
+            </Category>
+            <Category key="481" parent="390">
+               <Title>Pull manches longues</Title>
+            </Category>
+            <Category key="482" parent="389">
+               <Title>Gilet</Title>
+            </Category>
+            <Category key="483" parent="388">
+               <Title>Polaire</Title>
+            </Category>
+            <Category key="484" parent="387">
+               <Title>Sweatshirt hoodie non zippé</Title>
+            </Category>
+            <Category key="485" parent="387">
+               <Title>Sweatshirt hoodie zippé</Title>
+            </Category>
+            <Category key="486" parent="386">
+               <Title>Sweatshirt non zippé</Title>
+            </Category>
+            <Category key="487" parent="386">
+               <Title>Sweatshirt zippé</Title>
+            </Category>
+            <Category key="488" parent="385">
+               <Title>Robe mini manches longues/trois quart</Title>
+            </Category>
+            <Category key="489" parent="385">
+               <Title>Robe mini manches courtes</Title>
+            </Category>
+            <Category key="490" parent="385">
+               <Title>Robe mini bretelles / sans manches</Title>
+            </Category>
+            <Category key="491" parent="384">
+               <Title>Robe midi manches longues/trois quart</Title>
+            </Category>
+            <Category key="492" parent="384">
+               <Title>Robe midi manches courtes</Title>
+            </Category>
+            <Category key="493" parent="384">
+               <Title>Robe midi bretelles / sans manches</Title>
+            </Category>
+            <Category key="494" parent="383">
+               <Title>Robe maxi manches longues/trois quart</Title>
+            </Category>
+            <Category key="495" parent="383">
+               <Title>Robe maxi manches courtes</Title>
+            </Category>
+            <Category key="496" parent="383">
+               <Title>Robe maxi bretelles / sans manches</Title>
+            </Category>
+            <Category key="497" parent="382">
+               <Title>Robe chemise manches longues/trois quart</Title>
+            </Category>
+            <Category key="498" parent="382">
+               <Title>Robe chemise manches courtes</Title>
+            </Category>
+            <Category key="499" parent="381">
+               <Title>Robe de cérémonie</Title>
+            </Category>
+            <Category key="500" parent="380">
+               <Title>Bermuda</Title>
+            </Category>
+            <Category key="501" parent="380">
+               <Title>Short</Title>
+            </Category>
+            <Category key="502" parent="380">
+               <Title>Short en jean</Title>
+            </Category>
+            <Category key="503" parent="380">
+               <Title>Short en cuir</Title>
+            </Category>
+            <Category key="504" parent="380">
+               <Title>Short large</Title>
+            </Category>
+            <Category key="505" parent="380">
+               <Title>Short de sport</Title>
+            </Category>
+            <Category key="506" parent="378">
+               <Title>Veste trench</Title>
+            </Category>
+            <Category key="507" parent="377">
+               <Title>Veste blazer</Title>
+            </Category>
+            <Category key="508" parent="376">
+               <Title>Veste autre</Title>
+            </Category>
+            <Category key="509" parent="375">
+               <Title>Veste blouson</Title>
+            </Category>
+            <Category key="510" parent="379">
+               <Title>Veste parka</Title>
+            </Category>
+            <Category key="513" parent="374">
+               <Title>Veste imperméable</Title>
+            </Category>
+            <Category key="514" parent="373">
+               <Title>Veste sans manche</Title>
+            </Category>
+            <Category key="515" parent="372">
+               <Title>Veste fourure</Title>
+            </Category>
+            <Category key="516" parent="372">
+               <Title>Veste fausse fourure</Title>
+            </Category>
+            <Category key="517" parent="371">
+               <Title>Veste en jean</Title>
+            </Category>
+            <Category key="518" parent="370">
+               <Title>Veste perfecto</Title>
+            </Category>
+            <Category key="519" parent="370">
+               <Title>Veste en cuir autre</Title>
+            </Category>
+            <Category key="521" parent="368">
+               <Title>Coupe-vent</Title>
+            </Category>
+            <Category key="522" parent="368">
+               <Title>Softshell</Title>
+            </Category>
+            <Category key="523" parent="368">
+               <Title>Veste Polaire</Title>
+            </Category>
+            <Category key="524" parent="368">
+               <Title>Veste de survêtement</Title>
+            </Category>
+            <Category key="525" parent="367">
+               <Title>Doudoune courte</Title>
+            </Category>
+            <Category key="526" parent="367">
+               <Title>Doudoune longue</Title>
+            </Category>
+            <Category key="527" parent="367">
+               <Title>Doudoune sans manche</Title>
+            </Category>
+            <Category key="528" parent="366">
+               <Title>Cape</Title>
+            </Category>
+            <Category key="529" parent="365">
+               <Title>Caban duffle coat court</Title>
+            </Category>
+            <Category key="530" parent="365">
+               <Title>Caban duffle coat long</Title>
+            </Category>
+            <Category key="531" parent="364">
+               <Title>Manteau court</Title>
+            </Category>
+            <Category key="532" parent="363">
+               <Title>Manteau mi-long</Title>
+            </Category>
+            <Category key="533" parent="362">
+               <Title>Manteau long</Title>
+            </Category>
+            <Category key="535" parent="356">
+               <Title>Maillot de bain 1 pièce</Title>
+            </Category>
+            <Category key="536" parent="357">
+               <Title>Maillot de bain coordonné</Title>
+            </Category>
+            <Category key="537" parent="357">
+               <Title>Maillot de bain coordonné triangle</Title>
+            </Category>
+            <Category key="538" parent="357">
+               <Title>Maillot de bain coordonné bandeau</Title>
+            </Category>
+            <Category key="539" parent="357">
+               <Title>Maillot de bain coordonné brassière</Title>
+            </Category>
+            <Category key="540" parent="357">
+               <Title>Maillot de bain coordonné balconnet / push up</Title>
+            </Category>
+            <Category key="541" parent="358">
+               <Title>Maillot de bain haut triangle</Title>
+            </Category>
+            <Category key="542" parent="358">
+               <Title>Maillot de bain haut bandeau</Title>
+            </Category>
+            <Category key="543" parent="358">
+               <Title>Maillot de bain haut brassière</Title>
+            </Category>
+            <Category key="544" parent="358">
+               <Title>Maillot de bain haut balconnet</Title>
+            </Category>
+            <Category key="545" parent="358">
+               <Title>Maillot de bain haut push up</Title>
+            </Category>
+            <Category key="546" parent="359">
+               <Title>Maillot de bain bas culotte</Title>
+            </Category>
+            <Category key="547" parent="359">
+               <Title>Maillot de bain bas tanga</Title>
+            </Category>
+            <Category key="548" parent="359">
+               <Title>Maillot de bain bas shorty</Title>
+            </Category>
+            <Category key="575" parent="346">
+               <Title>Soutien-Gorge et Brassière</Title>
+            </Category>
+            <Category key="576" parent="346">
+               <Title>Caleçon long</Title>
+            </Category>
+            <Category key="577" parent="346">
+               <Title>Slip Culotte Shorty et Boxer</Title>
+            </Category>
+            <Category key="578" parent="346">
+               <Title>Haut première couche</Title>
+            </Category>
+            <Category key="579" parent="346">
+               <Title>Bas première couche</Title>
+            </Category>
+            <Category key="593" parent="111">
+               <Title>Salomés</Title>
+            </Category>
+            <Category key="594" parent="77">
+               <Title>Escarpins</Title>
+            </Category>
+            <Category key="595" parent="120">
+               <Title>Valises soute</Title>
+            </Category>
+            <Category key="596" parent="120">
+               <Title>Valises enfant</Title>
+            </Category>
+            <Category key="124" parent="50">
+               <Title>Autres boots</Title>
+            </Category>
+            <Category key="156" parent="50">
+               <Title>Boots lacées</Title>
+            </Category>
+            <Category key="175" parent="50">
+               <Title>Chukka</Title>
+            </Category>
+            <Category key="196" parent="88">
+               <Title>Mocassins semelle cuir</Title>
+            </Category>
+            <Category key="197" parent="88">
+               <Title>Mocassins semelle gomme</Title>
+            </Category>
+            <Category key="198" parent="88">
+               <Title>Mocassins semelle picot</Title>
+            </Category>
+            <Category key="199" parent="88">
+               <Title>Mocassins slip-on</Title>
+            </Category>
+            <Category key="310" parent="278">
+               <Title>Cravate</Title>
+            </Category>
+            <Category key="311" parent="280">
+               <Title>Nœud papillon</Title>
+            </Category>
+            <Category key="318" parent="287">
+               <Title>Accessoire costume</Title>
+            </Category>
+            <Category key="448" parent="420">
+               <Title>Gilet de costume</Title>
+            </Category>
+            <Category key="463" parent="406">
+               <Title>Jean tapered</Title>
+            </Category>
+            <Category key="511" parent="379">
+               <Title>Veste parka courte</Title>
+            </Category>
+            <Category key="512" parent="379">
+               <Title>Veste parka longue</Title>
+            </Category>
+            <Category key="520" parent="369">
+               <Title>Veste vareuse et enfilable</Title>
+            </Category>
+            <Category key="549" parent="359">
+               <Title>Slip de bain</Title>
+            </Category>
+            <Category key="550" parent="359">
+               <Title>Maillot de bain boxer</Title>
+            </Category>
+            <Category key="551" parent="359">
+               <Title>Short de bain court</Title>
+            </Category>
+            <Category key="552" parent="359">
+               <Title>Short de bain</Title>
+            </Category>
+            <Category key="553" parent="359">
+               <Title>Board Short</Title>
+            </Category>
+            <Category key="125" parent="36">
+               <Title>Autres chaussures ville</Title>
+            </Category>
+            <Category key="129" parent="41">
+               <Title>Autres semelles</Title>
+            </Category>
+            <Category key="146" parent="44">
+               <Title>Baskets ville basses</Title>
+            </Category>
+            <Category key="148" parent="44">
+               <Title>Baskets ville mid haute</Title>
+            </Category>
+            <Category key="151" parent="36">
+               <Title>Bateaux</Title>
+            </Category>
+            <Category key="174" parent="36">
+               <Title>Chukka</Title>
+            </Category>
+            <Category key="178" parent="36">
+               <Title>Derby</Title>
+            </Category>
+            <Category key="193" parent="101">
+               <Title>Mini sacs à dos enfant</Title>
+            </Category>
+            <Category key="194" parent="36">
+               <Title>Mocassins</Title>
+            </Category>
+            <Category key="292" parent="269">
+               <Title>Couronne</Title>
+            </Category>
+            <Category key="293" parent="270">
+               <Title>Barettes cheveux</Title>
+            </Category>
+            <Category key="294" parent="271">
+               <Title>Elastique cheveux</Title>
+            </Category>
+            <Category key="295" parent="272">
+               <Title>Bandeau cheveux</Title>
+            </Category>
+            <Category key="300" parent="274">
+               <Title>Cagoule</Title>
+            </Category>
+            <Category key="301" parent="274">
+               <Title>Bonnet autres</Title>
+            </Category>
+            <Category key="303" parent="276">
+               <Title>Accessoire de tête autre</Title>
+            </Category>
+            <Category key="444" parent="423">
+               <Title>Bloomer</Title>
+            </Category>
+            <Category key="445" parent="423">
+               <Title>Barboteuse</Title>
+            </Category>
+            <Category key="451" parent="417">
+               <Title>Ensemble d'été</Title>
+            </Category>
+            <Category key="452" parent="416">
+               <Title>Ensemble d'hiver</Title>
+            </Category>
+            <Category key="458" parent="411">
+               <Title>Jegging</Title>
+            </Category>
+            <Category key="470" parent="400">
+               <Title>Sarouel</Title>
+            </Category>
+            <Category key="474" parent="396">
+               <Title>Pantalon Casual</Title>
+            </Category>
+            <Category key="534" parent="361">
+               <Title>Combi-pilote</Title>
+            </Category>
+            <Category key="554" parent="360">
+               <Title>Sortie de bain</Title>
+            </Category>
+            <Category key="555" parent="360">
+               <Title>Parure sortie de bain</Title>
+            </Category>
+            <Category key="556" parent="360">
+               <Title>Peignoire sortie de bain</Title>
+            </Category>
+            <Category key="557" parent="360">
+               <Title>T-Shirt et Combinaison de bain anti UV</Title>
+            </Category>
+            <Category key="558" parent="355">
+               <Title>Coffret</Title>
+            </Category>
+            <Category key="559" parent="354">
+               <Title>Body manches courtes - unité</Title>
+            </Category>
+            <Category key="560" parent="354">
+               <Title>Body manches courtes - lot</Title>
+            </Category>
+            <Category key="561" parent="353">
+               <Title>Body manches longues- unité</Title>
+            </Category>
+            <Category key="562" parent="353">
+               <Title>Body manches longues- lot</Title>
+            </Category>
+            <Category key="563" parent="352">
+               <Title>Body débardeurs- unité</Title>
+            </Category>
+            <Category key="564" parent="352">
+               <Title>Body débardeurs- lot</Title>
+            </Category>
+            <Category key="565" parent="351">
+               <Title>Robe de chambre</Title>
+            </Category>
+            <Category key="566" parent="349">
+               <Title>Chemise de nuit</Title>
+            </Category>
+            <Category key="567" parent="349">
+               <Title>Pyjama en 1 pièce</Title>
+            </Category>
+            <Category key="568" parent="349">
+               <Title>Pyjama en 2 pièces</Title>
+            </Category>
+            <Category key="569" parent="350">
+               <Title>Gigoteuse</Title>
+            </Category>
+            <Category key="570" parent="350">
+               <Title>Doudou</Title>
+            </Category>
+            <Category key="571" parent="348">
+               <Title>à l'unité</Title>
+            </Category>
+            <Category key="572" parent="348">
+               <Title>en lot</Title>
+            </Category>
+            <Category key="573" parent="347">
+               <Title>à l'unité</Title>
+            </Category>
+            <Category key="574" parent="347">
+               <Title>en lot</Title>
+            </Category>
+            <Category key="123" parent="31">
+               <Title>Autres accessoires scolaire</Title>
+            </Category>
+         </Categories>
+      </Classifications>
+   </Schema>
+</Table>
