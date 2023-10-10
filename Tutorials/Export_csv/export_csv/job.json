@@ -1,0 +1,50 @@
+{
+	"schema": "1.0",
+	"key": "abouarfa_export_csv",
+	"title": "export_csv",
+	"tasks": [
+		{
+			"name": "table-export-items",
+			"taskReferenceName": "export_items",
+			"description": "Export items",
+			"type": "SUB_WORKFLOW",
+			"optional": false,
+			"inputParameters": {
+				"tableKey": "PRODUCTS_SARENZA",
+				"mode": "USER_SELECTION",
+				"fileName": "items.xml"
+			}
+		},
+		{
+			"name": "table-export-schema",
+			"taskReferenceName": "table_export_schema",
+			"description": "Export schema",
+			"optional": false,
+			"type": "SUB_WORKFLOW",
+			"inputParameters": {
+				"tableKey": "PRODUCTS_SARENZA",
+				"mode": "ACTIVE",
+				"fileName": "table.xml"
+			}
+		},
+		{
+			"name": "file-transformation-xslt",
+			"taskReferenceName": "transform_xslt",
+			"description": "Transform xml in csv format",
+			"type": "SUB_WORKFLOW",
+			"optional": false,
+			"inputParameters": {
+				"mode": "FILE",
+				"file": "${export_items.output.file}", 
+				"xslt": "file://assets/transform.xslt",
+				"params": [
+					{
+						"name": "tableUrl",
+						"select": "file://assets/transform.xslt"
+					}
+				],
+				"fileName": "result.csv"
+			}
+		}
+	]
+}

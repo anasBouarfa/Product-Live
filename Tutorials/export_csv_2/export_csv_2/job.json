@@ -1,0 +1,106 @@
+{
+	"schema": "1.0",
+	"key": "export_csv_2",
+	"title": "export_csv_2",
+	"tasks": [
+		{
+			"name": "table-export-schema",
+			"taskReferenceName": "table_export_schema",
+			"description": "Export table schema",
+			"optional": false,
+			"type": "SUB_WORKFLOW",
+			"inputParameters": {
+				"tableKey": "PRODUCTS_SARENZA",
+				"mode": "ACTIVE",
+				"fileName": "table.xml"
+			}
+		},
+		{
+			"name": "table-export-items",
+			"taskReferenceName": "table_export_items",
+			"description": "export items via request",
+			"optional": false,
+			"type": "SUB_WORKFLOW",
+			"inputParameters": {
+				"tableKey": "PRODUCTS_SARENZA",
+				"mode": "REQUEST",
+				"request": "file://assets/request.xml",
+				"fileName": "items.xml"
+			}
+		},
+		{
+			"name": "file-transformation-xslt",
+			"taskReferenceName": "file_transformation_request_xslt",
+			"description": "Generate request",
+			"optional": false,
+			"type": "SUB_WORKFLOW",
+			"inputParameters": {
+				"mode": "FILE",
+				"file": "file://assets/empty.xml",
+				"xslt": "file://assets/request.xslt",
+				"fileName": "request.xml"
+			}
+		},
+		{
+			"name": "file-transformation-xslt",
+			"taskReferenceName": "file_transformation_xslt",
+			"description": "transformation xslt",
+			"optional": false,
+			"type": "SUB_WORKFLOW",
+			"inputParameters": {
+				"mode": "FILE",
+				"file": "${table_export_items.output.file}",
+				"params": [
+					{
+						"name": "table_url",
+						"select": "${table_export_items.output.file}"
+					},
+					{
+						"name": "request_url",
+						"select": "${file_transformation_request_xslt.output.file}"
+					}
+				],
+				"xslt": "file://assets/transform.xslt",
+				"fileName": "result.csv"
+			}
+		},
+		{
+			"name": "file-transformation-xslt",
+			"taskReferenceName": "file_transformation_email_xslt",
+			"description": "Génerer fichier XML pour l'envoi d'email",
+			"optional": false,
+			"type": "SUB_WORKFLOW",
+			"inputParameters": {
+				"mode": "FILE",
+				"file": "file://assets/empty.xml",
+				"xslt": "file://assets/generate_email_html.xslt",
+				"params": [
+					{
+						"name": "listingUrl",
+						"select": "${table_export_items.output.listing}"
+					},
+					{
+						"name": "destination",
+						"select": "'anas.bouarfa93@gmail.com'"
+					}
+				],
+				"fileName": "result.xml"
+			}
+		},
+		{
+			"name": "notification-send-email",
+			"taskReferenceName": "notification_send_email",
+			"description": "Send email of valid Products",
+			"optional": false,
+			"type": "SUB_WORKFLOW",
+			"inputParameters": {
+				"mode": "FILE",
+				"file": "${file_transformation_email_xslt.output.file}"
+			}
+		}
+	],
+	"outputParameters": {
+		"files": "${file_transformation_xslt.output.file}",
+		"listing": "${file_transformation_xslt.output.listing}"
+	}
+}

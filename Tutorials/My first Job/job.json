@@ -1,0 +1,78 @@
+{
+	"schema": "1.0",
+	"key": "abouarfa_first_job",
+	"title": "Bouarfa's Export Excel",
+	"icon": "file-excel",
+	"userInputs": [
+		{
+			"key": "language",
+			"title": "Language",
+			"description": "Select language",
+			"required": true,
+			"type": "SELECT",
+			"options": [
+				{
+					"key": "french",
+					"title": "French"
+				},
+				{
+					"key": "english",
+					"title": "English"
+				}
+			],
+			"default": "english"
+		}
+	],
+	"tasks": [
+		{
+			"name": "table-export-items",
+			"taskReferenceName": "table_export_items",
+			"description": "Export Items from a user selection",
+			"optional": false,
+			"type": "SUB_WORKFLOW",
+			"inputParameters": {
+				"tableKey": "PL_DEMO_PRODUCTS",
+				"mode": "USER_SELECTION",
+				"fileName": "items.xml"
+			}
+		},
+		{
+			"name": "file-transformation-xslt",
+			"taskReferenceName": "file_transformation_xslt",
+			"description": "Transform items for the Generate Excel file",
+			"optional": false,
+			"type": "SUB_WORKFLOW",
+			"inputParameters": {
+				"mode": "FILE",
+				"params": [
+					{
+						"name": "language",
+						"select": "${workflow.input.language}"
+					}
+				],
+				"file": "${table_export_items.output.file}",
+				"xslt": "file://assets/transform.xslt",
+				"fileName": "result.xml"
+			}
+		},
+		{
+			"name": "file-generation-xlsx",
+			"taskReferenceName": "file_generation_xlsx",
+			"description": "Generate the Excel file",
+			"optional": false,
+			"type": "SUB_WORKFLOW",
+			"inputParameters": {
+				"request": "${table_export_items.output.file}",
+				"templates": [
+					{
+						"key": "template-tutorial",
+						"file": "file://assets/transform-tutorial.xlsx"
+					}
+				]
+			}
+		}
+	],
+	"outputParameters": {
+		"excel_files": "${file_generation_xlsx.output.files}"
+	}
+}

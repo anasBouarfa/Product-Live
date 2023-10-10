@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Items-Request>
+   <Filters>
+      <Filter-Updated-At>
+         <Start>2023-10-08T22:34:03.0233507+02:00</Start>
+         <End>2023-10-10T22:34:03.0233507+02:00</End>
+      </Filter-Updated-At>
+      <Filter-Conditional-Formatting key="COMPLIANCE_MODEL">
+         <Status>VALID_MODEL</Status>
+      </Filter-Conditional-Formatting>
+      <Filter-Conditional-Formatting key="COMPLIANCE_MODEL_COLOR">
+         <Status>VALID_MODEL_COLOR</Status>
+      </Filter-Conditional-Formatting>
+      <Filter-Conditional-Formatting key="COMPLIANCE_ARTICLE">
+         <Status>VALID_ARTICLE</Status>
+      </Filter-Conditional-Formatting>
+   </Filters>
+   <Properties>
+      <Identifier key="pid"/>
+      <Identifier key="pcid"/>
+      <Identifier key="vid"/>
+      <Field key="model_name"/>
+      <Classification key="categoriesSarenza"/>
+      <Field key="brand"/>
+      <Field key="22"/>
+      <Field key="60"/>
+      <Field key="size"/>
+      <Field key="advised_sale_price"/>
+   </Properties>
+</Items-Request>

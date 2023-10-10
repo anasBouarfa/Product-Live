@@ -1,0 +1,321 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Table key="PRODUCTS_SARENZA">
+    <Items>
+        <Item partition="976" created="2023-09-12T15:41:22.000Z" updated="2023-10-03T08:45:21.000Z">
+            <Identifier key="mirakl_family_id">e62e86bf-a23f-4f48-9ab7-67538fe8c767</Identifier>
+            <Identifier key="pid">124005</Identifier>
+            <Classification key="categoriesSarenza">191</Classification>
+            <Classification key="categoriesWeb">1095</Classification>
+            <Classification key="category_code">shoes_sneakers</Classification>
+            <Conditional-Formatting key="COMPLIANCE_MODEL">VALID_MODEL</Conditional-Formatting>
+            <Field key="model_name">Modèle 124005</Field>
+            <Field key="42">600</Field>
+            <Field key="brand">1363</Field>
+            <Field key="UNIVERS_WEB">mode</Field>
+            <Item created="2023-09-12T15:41:22.000Z" updated="2023-09-19T13:20:25.000Z">
+                <Identifier key="mirakl_id">9ca18a43-ce14-436b-bcb8-5ed200d075ef</Identifier>
+                <Identifier key="pcid">987000</Identifier>
+                <Conditional-Formatting key="COMPLIANCE_MODEL_COLOR">VALID_MODEL_COLOR</Conditional-Formatting>
+                <Field key="177">Test</Field>
+                <Field key="supplier_color">Blanc fournisseur</Field>
+                <Field key="visuel_1" width-px="1500" height-px="2055" size-kb="292" mime-type="image/jpeg" file-key="https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/d5a422b0978bca2ed48bb66b08a508c876e74909b2d9366e0bc7b7c15c3c7b03" file-hash="d6b5cfd4097c1f53b5b2a84873c00294047b1ed909de3b7175e0827b6dbf9d78" original-file-name="IHsazkIbLYMlvCvv_1694530531756.jpg" color-space="RGB" color-profile="NONE">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/d6b5cfd4097c1f53b5b2a84873c00294047b1ed909de3b7175e0827b6dbf9d78</Field>
+                <Field key="visuel_2" width-px="1500" height-px="2055" size-kb="277" mime-type="image/jpeg" file-key="https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/e1ef258faa2a8d0cb8b49cf90e7b53ed39040c51a7b3b4efe9ed1da44b7ba7cf" file-hash="ef06986448d91e659b4ec95c37725fb39414b45d3d6f13f8aa0ad8f36396876f" original-file-name="tPsxdxjWu8FsrmgB_1694530532196.jpg" color-space="RGB" color-profile="NONE">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/ef06986448d91e659b4ec95c37725fb39414b45d3d6f13f8aa0ad8f36396876f</Field>
+                <Field key="visuel_3" width-px="1500" height-px="2055" size-kb="277" mime-type="image/jpeg" file-key="https://asset.prod.product-live.com/file-map/6336b1119cef4686a25f323a_documents/redirect/ef06986448d91e659b4ec95c37725fb39414b45d3d6f13f8aa0ad8f36396876f" file-hash="ef06986448d91e659b4ec95c37725fb39414b45d3d6f13f8aa0ad8f36396876f" original-file-name="ef06986448d91e659b4ec95c37725fb39414b45d3d6f13f8aa0ad8f36396876f" color-space="RGB" color-profile="NONE">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/ef06986448d91e659b4ec95c37725fb39414b45d3d6f13f8aa0ad8f36396876f</Field>
+                <Field key="12">484</Field>
+                <Field key="15">796</Field>
+                <Field key="22">796</Field>
+                <Field key="175">3016</Field>
+                <Field key="48">805</Field>
+                <Item created="2023-09-12T15:41:23.000Z" updated="2023-09-28T12:22:05.000Z">
+                    <Identifier key="ean">9660440295715</Identifier>
+                    <Identifier key="vid">1000007</Identifier>
+                    <Conditional-Formatting key="COMPLIANCE_ARTICLE">VALID_ARTICLE</Conditional-Formatting>
+                    <Field key="size">41</Field>
+                    <Field key="title">Dunk Low Oxygen Purple</Field>
+                    <Field key="product_sku">234999</Field>
+                    <Field key="advised_sale_price">77</Field>
+                    <Field key="buying_price">140</Field>
+                    <Field key="image_1" width-px="1500" height-px="2055" size-kb="111" mime-type="image/jpeg" file-key="https://media-dev-eu-2.mirakl.net/SOURCE/47f4486998ce432f930878cdb33cb0cd" file-hash="d5a422b0978bca2ed48bb66b08a508c876e74909b2d9366e0bc7b7c15c3c7b03" original-file-name="47f4486998ce432f930878cdb33cb0cd.jpg" color-space="RGB" color-profile="CUSTOM">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/d5a422b0978bca2ed48bb66b08a508c876e74909b2d9366e0bc7b7c15c3c7b03</Field>
+                    <Field key="image_2" width-px="1500" height-px="2055" size-kb="101" mime-type="image/jpeg" file-key="https://media-dev-eu-2.mirakl.net/SOURCE/0eb6f6112d4647dd9355abaf08aced7e" file-hash="e1ef258faa2a8d0cb8b49cf90e7b53ed39040c51a7b3b4efe9ed1da44b7ba7cf" original-file-name="0eb6f6112d4647dd9355abaf08aced7e.jpg" color-space="RGB" color-profile="CUSTOM">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/e1ef258faa2a8d0cb8b49cf90e7b53ed39040c51a7b3b4efe9ed1da44b7ba7cf</Field>
+                    <Field key="gender">female</Field>
+                    <Field key="age">child</Field>
+                    <Field key="main_color">purple</Field>
+                </Item>
+            </Item>
+            <Item created="2023-09-12T15:41:23.000Z" updated="2023-09-28T10:06:07.000Z">
+                <Identifier key="mirakl_id">937e67b3-79c1-485e-9fe9-d33ee31bba7c</Identifier>
+                <Identifier key="pcid">988010</Identifier>
+                <Conditional-Formatting key="COMPLIANCE_MODEL_COLOR">VALID_MODEL_COLOR</Conditional-Formatting>
+                <Field key="177">Test 20230928-001</Field>
+                <Field key="supplier_color">Couleur fournisseur</Field>
+                <Field key="visuel_1" width-px="1500" height-px="2055" size-kb="277" mime-type="image/jpeg" file-key="https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/e1ef258faa2a8d0cb8b49cf90e7b53ed39040c51a7b3b4efe9ed1da44b7ba7cf" file-hash="ef06986448d91e659b4ec95c37725fb39414b45d3d6f13f8aa0ad8f36396876f" original-file-name="tPsxdxjWu8FsrmgB_1694530532196.jpg" color-space="RGB" color-profile="NONE">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/ef06986448d91e659b4ec95c37725fb39414b45d3d6f13f8aa0ad8f36396876f</Field>
+                <Field key="visuel_2" width-px="1500" height-px="2055" size-kb="292" mime-type="image/jpeg" file-key="https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/d5a422b0978bca2ed48bb66b08a508c876e74909b2d9366e0bc7b7c15c3c7b03" file-hash="d6b5cfd4097c1f53b5b2a84873c00294047b1ed909de3b7175e0827b6dbf9d78" original-file-name="IHsazkIbLYMlvCvv_1694530531756.jpg" color-space="RGB" color-profile="NONE">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/d6b5cfd4097c1f53b5b2a84873c00294047b1ed909de3b7175e0827b6dbf9d78</Field>
+                <Field key="visuel_3" width-px="1500" height-px="2055" size-kb="292" mime-type="image/jpeg" file-key="https://asset.prod.product-live.com/file-map/6336b1119cef4686a25f323a_documents/redirect/d6b5cfd4097c1f53b5b2a84873c00294047b1ed909de3b7175e0827b6dbf9d78" file-hash="d6b5cfd4097c1f53b5b2a84873c00294047b1ed909de3b7175e0827b6dbf9d78" original-file-name="d6b5cfd4097c1f53b5b2a84873c00294047b1ed909de3b7175e0827b6dbf9d78" color-space="RGB" color-profile="NONE">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/d6b5cfd4097c1f53b5b2a84873c00294047b1ed909de3b7175e0827b6dbf9d78</Field>
+                <Field key="12">14</Field>
+                <Field key="15">809</Field>
+                <Field key="22">809</Field>
+                <Field key="174">3015</Field>
+                <Field key="175">3016</Field>
+                <Field key="48">805</Field>
+                <Item created="2023-09-12T15:41:24.000Z" updated="2023-09-28T12:40:06.000Z">
+                    <Identifier key="ean">9660440299615</Identifier>
+                    <Identifier key="vid">1000006</Identifier>
+                    <Conditional-Formatting key="COMPLIANCE_ARTICLE">VALID_ARTICLE</Conditional-Formatting>
+                    <Field key="size">38</Field>
+                    <Field key="title">Dunk Low Oxygen Purple</Field>
+                    <Field key="product_sku">234998</Field>
+                    <Field key="advised_sale_price">77</Field>
+                    <Field key="buying_price">140</Field>
+                    <Field key="image_1" width-px="1500" height-px="2055" size-kb="101" mime-type="image/jpeg" file-key="https://media-dev-eu-2.mirakl.net/SOURCE/0eb6f6112d4647dd9355abaf08aced7e" file-hash="e1ef258faa2a8d0cb8b49cf90e7b53ed39040c51a7b3b4efe9ed1da44b7ba7cf" original-file-name="0eb6f6112d4647dd9355abaf08aced7e.jpg" color-space="RGB" color-profile="CUSTOM">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/e1ef258faa2a8d0cb8b49cf90e7b53ed39040c51a7b3b4efe9ed1da44b7ba7cf</Field>
+                    <Field key="image_2" width-px="1500" height-px="2055" size-kb="111" mime-type="image/jpeg" file-key="https://media-dev-eu-2.mirakl.net/SOURCE/47f4486998ce432f930878cdb33cb0cd" file-hash="d5a422b0978bca2ed48bb66b08a508c876e74909b2d9366e0bc7b7c15c3c7b03" original-file-name="47f4486998ce432f930878cdb33cb0cd.jpg" color-space="RGB" color-profile="CUSTOM">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/d5a422b0978bca2ed48bb66b08a508c876e74909b2d9366e0bc7b7c15c3c7b03</Field>
+                    <Field key="gender">female</Field>
+                    <Field key="age">adult</Field>
+                    <Field key="main_color">purple</Field>
+                </Item>
+            </Item>
+            <Item created="2023-09-12T15:41:24.000Z" updated="2023-09-28T10:06:06.000Z">
+                <Identifier key="mirakl_id">616e376f-0e8d-4f65-a6eb-15c6722edaa8</Identifier>
+                <Identifier key="pcid">988008</Identifier>
+                <Conditional-Formatting key="COMPLIANCE_MODEL_COLOR">VALID_MODEL_COLOR</Conditional-Formatting>
+                <Field key="177">Test 20230928-001</Field>
+                <Field key="supplier_color">Couleur fournisseur</Field>
+                <Field key="visuel_1" width-px="1500" height-px="2055" size-kb="292" mime-type="image/jpeg" file-key="https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/d5a422b0978bca2ed48bb66b08a508c876e74909b2d9366e0bc7b7c15c3c7b03" file-hash="d6b5cfd4097c1f53b5b2a84873c00294047b1ed909de3b7175e0827b6dbf9d78" original-file-name="IHsazkIbLYMlvCvv_1694530531756.jpg" color-space="RGB" color-profile="NONE">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/d6b5cfd4097c1f53b5b2a84873c00294047b1ed909de3b7175e0827b6dbf9d78</Field>
+                <Field key="visuel_2" width-px="1500" height-px="2055" size-kb="277" mime-type="image/jpeg" file-key="https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/e1ef258faa2a8d0cb8b49cf90e7b53ed39040c51a7b3b4efe9ed1da44b7ba7cf" file-hash="ef06986448d91e659b4ec95c37725fb39414b45d3d6f13f8aa0ad8f36396876f" original-file-name="tPsxdxjWu8FsrmgB_1694530532196.jpg" color-space="RGB" color-profile="NONE">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/ef06986448d91e659b4ec95c37725fb39414b45d3d6f13f8aa0ad8f36396876f</Field>
+                <Field key="visuel_3" width-px="1500" height-px="2055" size-kb="277" mime-type="image/jpeg" file-key="https://asset.prod.product-live.com/file-map/6336b1119cef4686a25f323a_documents/redirect/ef06986448d91e659b4ec95c37725fb39414b45d3d6f13f8aa0ad8f36396876f" file-hash="ef06986448d91e659b4ec95c37725fb39414b45d3d6f13f8aa0ad8f36396876f" original-file-name="ef06986448d91e659b4ec95c37725fb39414b45d3d6f13f8aa0ad8f36396876f" color-space="RGB" color-profile="NONE">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/ef06986448d91e659b4ec95c37725fb39414b45d3d6f13f8aa0ad8f36396876f</Field>
+                <Field key="12">46</Field>
+                <Field key="15">179</Field>
+                <Field key="22">179</Field>
+                <Field key="174">3015</Field>
+                <Field key="175">3016</Field>
+                <Field key="48">805</Field>
+                <Item created="2023-09-12T15:41:24.000Z" updated="2023-09-28T12:40:10.000Z">
+                    <Identifier key="ean">9660440294115</Identifier>
+                    <Identifier key="vid">1000005</Identifier>
+                    <Conditional-Formatting key="COMPLIANCE_ARTICLE">VALID_ARTICLE</Conditional-Formatting>
+                    <Field key="size">39</Field>
+                    <Field key="title">Dunk Low Oxygen Purple</Field>
+                    <Field key="product_sku">234997</Field>
+                    <Field key="advised_sale_price">77</Field>
+                    <Field key="buying_price">140</Field>
+                    <Field key="image_1" width-px="1500" height-px="2055" size-kb="111" mime-type="image/jpeg" file-key="https://media-dev-eu-2.mirakl.net/SOURCE/47f4486998ce432f930878cdb33cb0cd" file-hash="d5a422b0978bca2ed48bb66b08a508c876e74909b2d9366e0bc7b7c15c3c7b03" original-file-name="47f4486998ce432f930878cdb33cb0cd.jpg" color-space="RGB" color-profile="CUSTOM">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/d5a422b0978bca2ed48bb66b08a508c876e74909b2d9366e0bc7b7c15c3c7b03</Field>
+                    <Field key="image_2" width-px="1500" height-px="2055" size-kb="101" mime-type="image/jpeg" file-key="https://media-dev-eu-2.mirakl.net/SOURCE/0eb6f6112d4647dd9355abaf08aced7e" file-hash="e1ef258faa2a8d0cb8b49cf90e7b53ed39040c51a7b3b4efe9ed1da44b7ba7cf" original-file-name="0eb6f6112d4647dd9355abaf08aced7e.jpg" color-space="RGB" color-profile="CUSTOM">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/e1ef258faa2a8d0cb8b49cf90e7b53ed39040c51a7b3b4efe9ed1da44b7ba7cf</Field>
+                    <Field key="gender">female</Field>
+                    <Field key="age">adult</Field>
+                    <Field key="main_color">purple</Field>
+                </Item>
+            </Item>
+            <Item created="2023-09-12T15:41:24.000Z" updated="2023-09-28T10:06:06.000Z">
+                <Identifier key="mirakl_id">2235849e-53de-45db-b3d7-874f11f485ca</Identifier>
+                <Identifier key="pcid">988009</Identifier>
+                <Conditional-Formatting key="COMPLIANCE_MODEL_COLOR">VALID_MODEL_COLOR</Conditional-Formatting>
+                <Field key="177">Test 20230928-001</Field>
+                <Field key="supplier_color">Couleur fournisseur</Field>
+                <Field key="visuel_1" width-px="1500" height-px="2055" size-kb="277" mime-type="image/jpeg" file-key="https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/e1ef258faa2a8d0cb8b49cf90e7b53ed39040c51a7b3b4efe9ed1da44b7ba7cf" file-hash="ef06986448d91e659b4ec95c37725fb39414b45d3d6f13f8aa0ad8f36396876f" original-file-name="tPsxdxjWu8FsrmgB_1694530532196.jpg" color-space="RGB" color-profile="NONE">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/ef06986448d91e659b4ec95c37725fb39414b45d3d6f13f8aa0ad8f36396876f</Field>
+                <Field key="visuel_2" width-px="1500" height-px="2055" size-kb="292" mime-type="image/jpeg" file-key="https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/d5a422b0978bca2ed48bb66b08a508c876e74909b2d9366e0bc7b7c15c3c7b03" file-hash="d6b5cfd4097c1f53b5b2a84873c00294047b1ed909de3b7175e0827b6dbf9d78" original-file-name="IHsazkIbLYMlvCvv_1694530531756.jpg" color-space="RGB" color-profile="NONE">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/d6b5cfd4097c1f53b5b2a84873c00294047b1ed909de3b7175e0827b6dbf9d78</Field>
+                <Field key="visuel_3" width-px="1500" height-px="2055" size-kb="292" mime-type="image/jpeg" file-key="https://asset.prod.product-live.com/file-map/6336b1119cef4686a25f323a_documents/redirect/d6b5cfd4097c1f53b5b2a84873c00294047b1ed909de3b7175e0827b6dbf9d78" file-hash="d6b5cfd4097c1f53b5b2a84873c00294047b1ed909de3b7175e0827b6dbf9d78" original-file-name="d6b5cfd4097c1f53b5b2a84873c00294047b1ed909de3b7175e0827b6dbf9d78" color-space="RGB" color-profile="NONE">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/d6b5cfd4097c1f53b5b2a84873c00294047b1ed909de3b7175e0827b6dbf9d78</Field>
+                <Field key="12">1</Field>
+                <Field key="15">142</Field>
+                <Field key="22">172</Field>
+                <Field key="174">3015</Field>
+                <Field key="175">3016</Field>
+                <Field key="48">805</Field>
+                <Item created="2023-09-12T15:41:25.000Z" updated="2023-09-28T12:40:14.000Z">
+                    <Identifier key="ean">9660440298915</Identifier>
+                    <Identifier key="vid">1000004</Identifier>
+                    <Conditional-Formatting key="COMPLIANCE_ARTICLE">VALID_ARTICLE</Conditional-Formatting>
+                    <Field key="size">41</Field>
+                    <Field key="title">Dunk Low Oxygen Purple</Field>
+                    <Field key="product_sku">234996</Field>
+                    <Field key="advised_sale_price">77</Field>
+                    <Field key="buying_price">140</Field>
+                    <Field key="image_1" width-px="1500" height-px="2055" size-kb="101" mime-type="image/jpeg" file-key="https://media-dev-eu-2.mirakl.net/SOURCE/0eb6f6112d4647dd9355abaf08aced7e" file-hash="e1ef258faa2a8d0cb8b49cf90e7b53ed39040c51a7b3b4efe9ed1da44b7ba7cf" original-file-name="0eb6f6112d4647dd9355abaf08aced7e.jpg" color-space="RGB" color-profile="CUSTOM">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/e1ef258faa2a8d0cb8b49cf90e7b53ed39040c51a7b3b4efe9ed1da44b7ba7cf</Field>
+                    <Field key="image_2" width-px="1500" height-px="2055" size-kb="111" mime-type="image/jpeg" file-key="https://media-dev-eu-2.mirakl.net/SOURCE/47f4486998ce432f930878cdb33cb0cd" file-hash="d5a422b0978bca2ed48bb66b08a508c876e74909b2d9366e0bc7b7c15c3c7b03" original-file-name="47f4486998ce432f930878cdb33cb0cd.jpg" color-space="RGB" color-profile="CUSTOM">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/d5a422b0978bca2ed48bb66b08a508c876e74909b2d9366e0bc7b7c15c3c7b03</Field>
+                    <Field key="gender">female</Field>
+                    <Field key="age">adult</Field>
+                    <Field key="main_color">purple</Field>
+                </Item>
+            </Item>
+            <Item created="2023-09-12T15:41:25.000Z" updated="2023-09-28T10:06:05.000Z">
+                <Identifier key="mirakl_id">cb137af6-195d-462b-b98f-2aed4d887413</Identifier>
+                <Identifier key="pcid">988006</Identifier>
+                <Conditional-Formatting key="COMPLIANCE_MODEL_COLOR">VALID_MODEL_COLOR</Conditional-Formatting>
+                <Field key="177">Test 20230928-001</Field>
+                <Field key="supplier_color">Couleur fournisseur</Field>
+                <Field key="visuel_1" width-px="1500" height-px="2055" size-kb="292" mime-type="image/jpeg" file-key="https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/d5a422b0978bca2ed48bb66b08a508c876e74909b2d9366e0bc7b7c15c3c7b03" file-hash="d6b5cfd4097c1f53b5b2a84873c00294047b1ed909de3b7175e0827b6dbf9d78" original-file-name="IHsazkIbLYMlvCvv_1694530531756.jpg" color-space="RGB" color-profile="NONE">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/d6b5cfd4097c1f53b5b2a84873c00294047b1ed909de3b7175e0827b6dbf9d78</Field>
+                <Field key="visuel_2" width-px="1500" height-px="2055" size-kb="277" mime-type="image/jpeg" file-key="https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/e1ef258faa2a8d0cb8b49cf90e7b53ed39040c51a7b3b4efe9ed1da44b7ba7cf" file-hash="ef06986448d91e659b4ec95c37725fb39414b45d3d6f13f8aa0ad8f36396876f" original-file-name="tPsxdxjWu8FsrmgB_1694530532196.jpg" color-space="RGB" color-profile="NONE">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/ef06986448d91e659b4ec95c37725fb39414b45d3d6f13f8aa0ad8f36396876f</Field>
+                <Field key="visuel_3" width-px="1500" height-px="2055" size-kb="277" mime-type="image/jpeg" file-key="https://asset.prod.product-live.com/file-map/6336b1119cef4686a25f323a_documents/redirect/ef06986448d91e659b4ec95c37725fb39414b45d3d6f13f8aa0ad8f36396876f" file-hash="ef06986448d91e659b4ec95c37725fb39414b45d3d6f13f8aa0ad8f36396876f" original-file-name="ef06986448d91e659b4ec95c37725fb39414b45d3d6f13f8aa0ad8f36396876f" color-space="RGB" color-profile="NONE">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/ef06986448d91e659b4ec95c37725fb39414b45d3d6f13f8aa0ad8f36396876f</Field>
+                <Field key="12">300</Field>
+                <Field key="15">801</Field>
+                <Field key="22">338</Field>
+                <Field key="174">3015</Field>
+                <Field key="175">3016</Field>
+                <Field key="48">805</Field>
+                <Item created="2023-09-12T15:41:26.000Z" updated="2023-09-28T12:40:18.000Z">
+                    <Identifier key="ean">9660440296515</Identifier>
+                    <Identifier key="vid">1000003</Identifier>
+                    <Conditional-Formatting key="COMPLIANCE_ARTICLE">VALID_ARTICLE</Conditional-Formatting>
+                    <Field key="size">40</Field>
+                    <Field key="title">Dunk Low Oxygen Purple</Field>
+                    <Field key="product_sku">234995</Field>
+                    <Field key="advised_sale_price">77</Field>
+                    <Field key="buying_price">140</Field>
+                    <Field key="image_1" width-px="1500" height-px="2055" size-kb="111" mime-type="image/jpeg" file-key="https://media-dev-eu-2.mirakl.net/SOURCE/47f4486998ce432f930878cdb33cb0cd" file-hash="d5a422b0978bca2ed48bb66b08a508c876e74909b2d9366e0bc7b7c15c3c7b03" original-file-name="47f4486998ce432f930878cdb33cb0cd.jpg" color-space="RGB" color-profile="CUSTOM">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/d5a422b0978bca2ed48bb66b08a508c876e74909b2d9366e0bc7b7c15c3c7b03</Field>
+                    <Field key="image_2" width-px="1500" height-px="2055" size-kb="101" mime-type="image/jpeg" file-key="https://media-dev-eu-2.mirakl.net/SOURCE/0eb6f6112d4647dd9355abaf08aced7e" file-hash="e1ef258faa2a8d0cb8b49cf90e7b53ed39040c51a7b3b4efe9ed1da44b7ba7cf" original-file-name="0eb6f6112d4647dd9355abaf08aced7e.jpg" color-space="RGB" color-profile="CUSTOM">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/e1ef258faa2a8d0cb8b49cf90e7b53ed39040c51a7b3b4efe9ed1da44b7ba7cf</Field>
+                    <Field key="gender">female</Field>
+                    <Field key="age">adult</Field>
+                    <Field key="main_color">purple</Field>
+                </Item>
+            </Item>
+            <Item created="2023-09-12T15:41:26.000Z" updated="2023-09-28T12:37:22.000Z">
+                <Identifier key="mirakl_id">75431f85-1072-4962-b2ab-91f1c8c73b53</Identifier>
+                <Identifier key="pcid">988000</Identifier>
+                <Conditional-Formatting key="COMPLIANCE_MODEL_COLOR">UNVALID_STUDIO_MODEL_COLOR</Conditional-Formatting>
+                <Field key="177">Test 20230928-001</Field>
+                <Field key="supplier_color">Couleur fournisseur</Field>
+                <Field key="visuel_1" width-px="1500" height-px="2055" size-kb="277" mime-type="image/jpeg" file-key="https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/e1ef258faa2a8d0cb8b49cf90e7b53ed39040c51a7b3b4efe9ed1da44b7ba7cf" file-hash="ef06986448d91e659b4ec95c37725fb39414b45d3d6f13f8aa0ad8f36396876f" original-file-name="tPsxdxjWu8FsrmgB_1694530532196.jpg" color-space="RGB" color-profile="NONE">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/ef06986448d91e659b4ec95c37725fb39414b45d3d6f13f8aa0ad8f36396876f</Field>
+                <Field key="visuel_2" width-px="1500" height-px="2055" size-kb="292" mime-type="image/jpeg" file-key="https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/d5a422b0978bca2ed48bb66b08a508c876e74909b2d9366e0bc7b7c15c3c7b03" file-hash="d6b5cfd4097c1f53b5b2a84873c00294047b1ed909de3b7175e0827b6dbf9d78" original-file-name="IHsazkIbLYMlvCvv_1694530531756.jpg" color-space="RGB" color-profile="NONE">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/d6b5cfd4097c1f53b5b2a84873c00294047b1ed909de3b7175e0827b6dbf9d78</Field>
+                <Field key="visuel_3" width-px="1500" height-px="2055" size-kb="292" mime-type="image/jpeg" file-key="https://asset.prod.product-live.com/file-map/6336b1119cef4686a25f323a_documents/redirect/d6b5cfd4097c1f53b5b2a84873c00294047b1ed909de3b7175e0827b6dbf9d78" file-hash="d6b5cfd4097c1f53b5b2a84873c00294047b1ed909de3b7175e0827b6dbf9d78" original-file-name="d6b5cfd4097c1f53b5b2a84873c00294047b1ed909de3b7175e0827b6dbf9d78" color-space="RGB" color-profile="NONE">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/d6b5cfd4097c1f53b5b2a84873c00294047b1ed909de3b7175e0827b6dbf9d78</Field>
+                <Field key="12">484</Field>
+                <Field key="15">51</Field>
+                <Field key="22">802</Field>
+                <Field key="174">3015</Field>
+                <Field key="175">3016</Field>
+                <Field key="48">805</Field>
+                <Item created="2023-09-12T15:41:26.000Z" updated="2023-09-28T12:40:21.000Z">
+                    <Identifier key="ean">9660440300915</Identifier>
+                    <Identifier key="vid">1000002</Identifier>
+                    <Conditional-Formatting key="COMPLIANCE_ARTICLE">VALID_ARTICLE</Conditional-Formatting>
+                    <Field key="size">39</Field>
+                    <Field key="title">Dunk Low Oxygen Purple</Field>
+                    <Field key="product_sku">234994</Field>
+                    <Field key="advised_sale_price">77</Field>
+                    <Field key="buying_price">140</Field>
+                    <Field key="image_1" width-px="1500" height-px="2055" size-kb="101" mime-type="image/jpeg" file-key="https://media-dev-eu-2.mirakl.net/SOURCE/0eb6f6112d4647dd9355abaf08aced7e" file-hash="e1ef258faa2a8d0cb8b49cf90e7b53ed39040c51a7b3b4efe9ed1da44b7ba7cf" original-file-name="0eb6f6112d4647dd9355abaf08aced7e.jpg" color-space="RGB" color-profile="CUSTOM">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/e1ef258faa2a8d0cb8b49cf90e7b53ed39040c51a7b3b4efe9ed1da44b7ba7cf</Field>
+                    <Field key="image_2" width-px="1500" height-px="2055" size-kb="111" mime-type="image/jpeg" file-key="https://media-dev-eu-2.mirakl.net/SOURCE/47f4486998ce432f930878cdb33cb0cd" file-hash="d5a422b0978bca2ed48bb66b08a508c876e74909b2d9366e0bc7b7c15c3c7b03" original-file-name="47f4486998ce432f930878cdb33cb0cd.jpg" color-space="RGB" color-profile="CUSTOM">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/d5a422b0978bca2ed48bb66b08a508c876e74909b2d9366e0bc7b7c15c3c7b03</Field>
+                    <Field key="gender">female</Field>
+                    <Field key="age">adult</Field>
+                    <Field key="main_color">purple</Field>
+                </Item>
+            </Item>
+            <Item created="2023-09-12T15:41:26.000Z" updated="2023-09-28T13:32:49.000Z">
+                <Identifier key="mirakl_id">8556c5c1-67c4-4845-b729-1777e3c81954</Identifier>
+                <Identifier key="pcid">988001</Identifier>
+                <Conditional-Formatting key="COMPLIANCE_MODEL_COLOR">UNVALID_STUDIO_MODEL_COLOR</Conditional-Formatting>
+                <Field key="177">Test 20230928-001</Field>
+                <Field key="supplier_color">Couleur fournisseur</Field>
+                <Field key="visuel_1" width-px="1500" height-px="2055" size-kb="277" mime-type="image/jpeg" file-key="https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/e1ef258faa2a8d0cb8b49cf90e7b53ed39040c51a7b3b4efe9ed1da44b7ba7cf" file-hash="ef06986448d91e659b4ec95c37725fb39414b45d3d6f13f8aa0ad8f36396876f" original-file-name="tPsxdxjWu8FsrmgB_1694530532196.jpg" color-space="RGB" color-profile="NONE">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/ef06986448d91e659b4ec95c37725fb39414b45d3d6f13f8aa0ad8f36396876f</Field>
+                <Field key="visuel_2" width-px="1500" height-px="2055" size-kb="292" mime-type="image/jpeg" file-key="https://asset.prod.product-live.com/file-map/6336b1119cef4686a25f323a_documents/redirect/d6b5cfd4097c1f53b5b2a84873c00294047b1ed909de3b7175e0827b6dbf9d78" file-hash="d6b5cfd4097c1f53b5b2a84873c00294047b1ed909de3b7175e0827b6dbf9d78" original-file-name="d6b5cfd4097c1f53b5b2a84873c00294047b1ed909de3b7175e0827b6dbf9d78" color-space="RGB" color-profile="NONE">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/d6b5cfd4097c1f53b5b2a84873c00294047b1ed909de3b7175e0827b6dbf9d78</Field>
+                <Field key="visuel_3" width-px="1500" height-px="2055" size-kb="292" mime-type="image/jpeg" file-key="https://asset.prod.product-live.com/file-map/6336b1119cef4686a25f323a_documents/redirect/d6b5cfd4097c1f53b5b2a84873c00294047b1ed909de3b7175e0827b6dbf9d78" file-hash="d6b5cfd4097c1f53b5b2a84873c00294047b1ed909de3b7175e0827b6dbf9d78" original-file-name="d6b5cfd4097c1f53b5b2a84873c00294047b1ed909de3b7175e0827b6dbf9d78" color-space="RGB" color-profile="NONE">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/d6b5cfd4097c1f53b5b2a84873c00294047b1ed909de3b7175e0827b6dbf9d78</Field>
+                <Field key="12">499</Field>
+                <Field key="15">796</Field>
+                <Field key="22">796</Field>
+                <Field key="174">3015</Field>
+                <Field key="175">3016</Field>
+                <Field key="48">805</Field>
+                <Item created="2023-09-12T15:41:27.000Z" updated="2023-09-28T12:40:24.000Z">
+                    <Identifier key="ean">9660440297215</Identifier>
+                    <Identifier key="vid">1000001</Identifier>
+                    <Conditional-Formatting key="COMPLIANCE_ARTICLE">VALID_ARTICLE</Conditional-Formatting>
+                    <Field key="size">38</Field>
+                    <Field key="title">Dunk Low Oxygen Purple</Field>
+                    <Field key="product_sku">234993</Field>
+                    <Field key="advised_sale_price">77</Field>
+                    <Field key="buying_price">140</Field>
+                    <Field key="image_1" width-px="1500" height-px="2055" size-kb="101" mime-type="image/jpeg" file-key="https://media-dev-eu-2.mirakl.net/SOURCE/0eb6f6112d4647dd9355abaf08aced7e" file-hash="e1ef258faa2a8d0cb8b49cf90e7b53ed39040c51a7b3b4efe9ed1da44b7ba7cf" original-file-name="0eb6f6112d4647dd9355abaf08aced7e.jpg" color-space="RGB" color-profile="CUSTOM">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/e1ef258faa2a8d0cb8b49cf90e7b53ed39040c51a7b3b4efe9ed1da44b7ba7cf</Field>
+                    <Field key="image_2" width-px="1500" height-px="2055" size-kb="111" mime-type="image/jpeg" file-key="https://media-dev-eu-2.mirakl.net/SOURCE/47f4486998ce432f930878cdb33cb0cd" file-hash="d5a422b0978bca2ed48bb66b08a508c876e74909b2d9366e0bc7b7c15c3c7b03" original-file-name="47f4486998ce432f930878cdb33cb0cd.jpg" color-space="RGB" color-profile="CUSTOM">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/d5a422b0978bca2ed48bb66b08a508c876e74909b2d9366e0bc7b7c15c3c7b03</Field>
+                    <Field key="gender">female</Field>
+                    <Field key="age">adult</Field>
+                    <Field key="main_color">purple</Field>
+                </Item>
+            </Item>
+        </Item>
+        <Item partition="976" created="2023-09-12T15:41:07.000Z" updated="2023-09-19T14:30:18.000Z">
+            <Identifier key="mirakl_family_id">45d30977-44f6-4d5a-8edc-3d918f48e1d1</Identifier>
+            <Identifier key="pid">123001</Identifier>
+            <Classification key="categoriesSarenza">11</Classification>
+            <Classification key="categoriesWeb">1098</Classification>
+            <Classification key="category_code">shoes_sneakers</Classification>
+            <Conditional-Formatting key="COMPLIANCE_MODEL">UNVALID_ACHAT_MODEL</Conditional-Formatting>
+            <Field key="model_name">Modèle 123001</Field>
+            <Field key="42">551</Field>
+            <Field key="brand">439</Field>
+            <Item created="2023-09-12T15:41:09.000Z" updated="2023-09-19T13:20:28.000Z">
+                <Identifier key="mirakl_id">9c466fd5-ce78-46fe-a6de-c1e516b91edf</Identifier>
+                <Identifier key="pcid">987001</Identifier>
+                <Conditional-Formatting key="COMPLIANCE_MODEL_COLOR">VALID_MODEL_COLOR</Conditional-Formatting>
+                <Field key="177">Test</Field>
+                <Field key="supplier_color">Beige fournisseur</Field>
+                <Field key="visuel_1" width-px="1500" height-px="2055" size-kb="267" mime-type="image/jpeg" file-key="https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/6d5b2bab8866c99b0a11d0fd0ae4feaff1ad682f172a9881dd753d23c1c49469" file-hash="df8a739705adffb21e7d0b5118d6ff2ff2390425d79381d88e3fcbe7c4e15afe" original-file-name="b6OdQIRU03UB9g96_1694533268184.jpg" color-space="RGB" color-profile="NONE">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/df8a739705adffb21e7d0b5118d6ff2ff2390425d79381d88e3fcbe7c4e15afe</Field>
+                <Field key="visuel_2" width-px="1500" height-px="2055" size-kb="206" mime-type="image/jpeg" file-key="https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/35f1daa84a87bbd99bf37e578443abc8cb12390ad3cb9e9056a10392b81009c3" file-hash="b6403c54225d1f2d8b924cd56559a8aeefc47b688060ee645a3aa2f03cc4141a" original-file-name="EW89SdxxaoT8QHsR_1694533268652.jpg" color-space="RGB" color-profile="NONE">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/b6403c54225d1f2d8b924cd56559a8aeefc47b688060ee645a3aa2f03cc4141a</Field>
+                <Field key="visuel_3" width-px="1500" height-px="2055" size-kb="174" mime-type="image/jpeg" file-key="https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/3a0cc086213775f4e89d8492e249294ae01ecf4aff99182da59facea69ab83d9" file-hash="0f14372b58d20aea9d6d048503f484a729265956c987cb4e96cc7466022aadd8" original-file-name="ryRHJgDzqQnEck4c_1694533269101.jpg" color-space="RGB" color-profile="NONE">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/0f14372b58d20aea9d6d048503f484a729265956c987cb4e96cc7466022aadd8</Field>
+                <Field key="12">499</Field>
+                <Field key="15">51</Field>
+                <Field key="22">802</Field>
+                <Field key="175">3017</Field>
+                <Field key="14">207</Field>
+                <Item created="2023-09-12T15:41:10.000Z" updated="2023-09-19T13:34:03.000Z">
+                    <Identifier key="ean">3616341434731</Identifier>
+                    <Identifier key="vid">1234001</Identifier>
+                    <Conditional-Formatting key="COMPLIANCE_ARTICLE">VALID_ARTICLE</Conditional-Formatting>
+                    <Field key="size">47</Field>
+                    <Field key="title">LOUIS</Field>
+                    <Field key="product_sku">123999</Field>
+                    <Field key="advised_sale_price">98</Field>
+                    <Field key="buying_price">200</Field>
+                    <Field key="image_3" width-px="1500" height-px="2055" size-kb="68" mime-type="image/jpeg" file-key="https://media-dev-eu-2.mirakl.net/SOURCE/58fd4b10dbf947e28bcd57b511ca2e3a" file-hash="3a0cc086213775f4e89d8492e249294ae01ecf4aff99182da59facea69ab83d9" original-file-name="58fd4b10dbf947e28bcd57b511ca2e3a.jpg" color-space="RGB" color-profile="CUSTOM">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/3a0cc086213775f4e89d8492e249294ae01ecf4aff99182da59facea69ab83d9</Field>
+                    <Field key="image_1" width-px="1500" height-px="2055" size-kb="109" mime-type="image/jpeg" file-key="https://media-dev-eu-2.mirakl.net/SOURCE/6787356f0cc44b6498f38cc8ff248258" file-hash="6d5b2bab8866c99b0a11d0fd0ae4feaff1ad682f172a9881dd753d23c1c49469" original-file-name="6787356f0cc44b6498f38cc8ff248258.jpg" color-space="RGB" color-profile="CUSTOM">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/6d5b2bab8866c99b0a11d0fd0ae4feaff1ad682f172a9881dd753d23c1c49469</Field>
+                    <Field key="image_2" width-px="1500" height-px="2055" size-kb="82" mime-type="image/jpeg" file-key="https://media-dev-eu-2.mirakl.net/SOURCE/13f02afd3087466491d5573ef08916ca" file-hash="35f1daa84a87bbd99bf37e578443abc8cb12390ad3cb9e9056a10392b81009c3" original-file-name="13f02afd3087466491d5573ef08916ca.jpg" color-space="RGB" color-profile="CUSTOM">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/35f1daa84a87bbd99bf37e578443abc8cb12390ad3cb9e9056a10392b81009c3</Field>
+                    <Field key="gender">male</Field>
+                    <Field key="age">child</Field>
+                    <Field key="main_color">navy_blue</Field>
+                </Item>
+            </Item>
+        </Item>
+        <Item partition="976" created="2023-09-12T15:41:06.000Z" updated="2023-09-19T14:30:18.000Z">
+            <Identifier key="mirakl_family_id">caeb313c-afb4-407d-a57a-75800ba5256d</Identifier>
+            <Identifier key="pid">123002</Identifier>
+            <Classification key="categoriesSarenza">11</Classification>
+            <Classification key="categoriesWeb">1096</Classification>
+            <Classification key="category_code">shoes_sneakers</Classification>
+            <Conditional-Formatting key="COMPLIANCE_MODEL">UNVALID_ACHAT_MODEL</Conditional-Formatting>
+            <Field key="model_name">Modèle 123002</Field>
+            <Field key="42">556</Field>
+            <Field key="brand">4</Field>
+            <Item created="2023-09-12T15:41:06.000Z" updated="2023-09-19T13:20:28.000Z">
+                <Identifier key="mirakl_id">fa30b384-34e0-4fee-824a-a87ef94a4e7c</Identifier>
+                <Identifier key="pcid">987002</Identifier>
+                <Conditional-Formatting key="COMPLIANCE_MODEL_COLOR">VALID_MODEL_COLOR</Conditional-Formatting>
+                <Field key="177">Test</Field>
+                <Field key="supplier_color">Noir fournisseur</Field>
+                <Field key="visuel_1" width-px="1670" height-px="2288" size-kb="379" mime-type="image/jpeg" file-key="https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/ab4abe24b8f09692d3a57f1a27181b5976ad6c7021f12fe018036d20c3d1ca94" file-hash="312ac8b5e27b6c0d304f9610a321539b275e44697cf0e7a1d1084ed0c7125433" original-file-name="DPVBMpsLc6wfXA1h_1686596114501.jpg" color-space="RGB" color-profile="NONE">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/312ac8b5e27b6c0d304f9610a321539b275e44697cf0e7a1d1084ed0c7125433</Field>
+                <Field key="visuel_2" width-px="1670" height-px="2288" size-kb="305" mime-type="image/jpeg" file-key="https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/614fc2bff67f769a4a53cd5421925c17e70d82bd6176985be21688d2f4992fe8" file-hash="1ab1b29e7b46c2712cc613dec8d45cc31f91bac9f5d30cc70eb94c9d896d9796" original-file-name="sBwSupbzvEz8EkiS_1686596115095.jpg" color-space="RGB" color-profile="NONE">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/1ab1b29e7b46c2712cc613dec8d45cc31f91bac9f5d30cc70eb94c9d896d9796</Field>
+                <Field key="visuel_3" width-px="1670" height-px="2288" size-kb="298" mime-type="image/jpeg" file-key="https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/229b7ba734527bc46113e9cf6acb94e3f3de59bfadc8a94443056937357c60d0" file-hash="6bdc62504ca1ac84fc42ba6e59cdc0d729e19ab14400eda7388a6d1fbdac6a9c" original-file-name="5aAkI5eJqDvP3rD0_1686596115750.jpg" color-space="RGB" color-profile="NONE">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/6bdc62504ca1ac84fc42ba6e59cdc0d729e19ab14400eda7388a6d1fbdac6a9c</Field>
+                <Field key="visuel_4" width-px="1670" height-px="2288" size-kb="297" mime-type="image/jpeg" file-key="https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/5717a6dcb621fc70075fbfe0526f5e18d5d8039ad3e2b1b9dd75dffc9bcbce8a" file-hash="8d520a60672bf87379704f9d1a3040259f5646eb36334bd1e44d54e6ffa79622" original-file-name="ShB0tjElfRnJIQCE_1686596116360.jpg" color-space="RGB" color-profile="NONE">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/8d520a60672bf87379704f9d1a3040259f5646eb36334bd1e44d54e6ffa79622</Field>
+                <Field key="visuel_5" width-px="1670" height-px="2288" size-kb="407" mime-type="image/jpeg" file-key="https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/d365f2e2607b048e6b2e9f884092e17341f9a38af41917dbc74f1bcf87c6f6ef" file-hash="79467616fbfd3280940583e6b919925ece2b48f8af8a20350af7510df3d7d6ba" original-file-name="sLptl1RNDLF8tbkY_1686596116972.jpg" color-space="RGB" color-profile="NONE">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/79467616fbfd3280940583e6b919925ece2b48f8af8a20350af7510df3d7d6ba</Field>
+                <Field key="12">5</Field>
+                <Field key="15">795</Field>
+                <Field key="22">795</Field>
+                <Field key="175">3016</Field>
+                <Field key="48">797</Field>
+                <Item created="2023-09-12T15:41:09.000Z" updated="2023-09-19T13:34:12.000Z">
+                    <Identifier key="ean">3616563920531</Identifier>
+                    <Identifier key="vid">1234002</Identifier>
+                    <Conditional-Formatting key="COMPLIANCE_ARTICLE">VALID_ARTICLE</Conditional-Formatting>
+                    <Field key="size">43</Field>
+                    <Field key="title">Tennis - TOFFAK_S_H_TB_0_231 test2</Field>
+                    <Field key="product_sku">789999</Field>
+                    <Field key="advised_sale_price">66</Field>
+                    <Field key="buying_price">130</Field>
+                    <Field key="image_3" width-px="1670" height-px="2288" size-kb="289" mime-type="image/jpeg" file-key="https://media-dev-eu-2.mirakl.net/SOURCE/515c3849a13443c59f6c230cfd03bb2c" file-hash="229b7ba734527bc46113e9cf6acb94e3f3de59bfadc8a94443056937357c60d0" original-file-name="515c3849a13443c59f6c230cfd03bb2c.jpg" color-space="RGB" color-profile="NONE">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/229b7ba734527bc46113e9cf6acb94e3f3de59bfadc8a94443056937357c60d0</Field>
+                    <Field key="image_1" width-px="1670" height-px="2288" size-kb="365" mime-type="image/jpeg" file-key="https://media-dev-eu-2.mirakl.net/SOURCE/6a4b83f8111940f8a25c46a80cc3c564" file-hash="ab4abe24b8f09692d3a57f1a27181b5976ad6c7021f12fe018036d20c3d1ca94" original-file-name="6a4b83f8111940f8a25c46a80cc3c564.jpg" color-space="RGB" color-profile="NONE">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/ab4abe24b8f09692d3a57f1a27181b5976ad6c7021f12fe018036d20c3d1ca94</Field>
+                    <Field key="image_2" width-px="1670" height-px="2288" size-kb="294" mime-type="image/jpeg" file-key="https://media-dev-eu-2.mirakl.net/SOURCE/406cec2e8fa54f59bb612b22434a1931" file-hash="614fc2bff67f769a4a53cd5421925c17e70d82bd6176985be21688d2f4992fe8" original-file-name="406cec2e8fa54f59bb612b22434a1931.jpg" color-space="RGB" color-profile="NONE">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/614fc2bff67f769a4a53cd5421925c17e70d82bd6176985be21688d2f4992fe8</Field>
+                    <Field key="image_4" width-px="1670" height-px="2288" size-kb="287" mime-type="image/jpeg" file-key="https://media-dev-eu-2.mirakl.net/SOURCE/1a773a279a2743c3a0d6cce90dc8f532" file-hash="5717a6dcb621fc70075fbfe0526f5e18d5d8039ad3e2b1b9dd75dffc9bcbce8a" original-file-name="1a773a279a2743c3a0d6cce90dc8f532.jpg" color-space="RGB" color-profile="NONE">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/5717a6dcb621fc70075fbfe0526f5e18d5d8039ad3e2b1b9dd75dffc9bcbce8a</Field>
+                    <Field key="image_5" width-px="1670" height-px="2288" size-kb="390" mime-type="image/jpeg" file-key="https://media-dev-eu-2.mirakl.net/SOURCE/ef08f798a99446609787efc0092d9271" file-hash="d365f2e2607b048e6b2e9f884092e17341f9a38af41917dbc74f1bcf87c6f6ef" original-file-name="ef08f798a99446609787efc0092d9271.jpg" color-space="RGB" color-profile="NONE">https://asset.prod.product-live.com/file-map-resize/6336b1119cef4686a25f323a_documents/redirect/d365f2e2607b048e6b2e9f884092e17341f9a38af41917dbc74f1bcf87c6f6ef</Field>
+                    <Field key="gender">female</Field>
+                    <Field key="age">child</Field>
+                    <Field key="main_color">blue</Field>
+                </Item>
+            </Item>
+        </Item>
+    </Items>
+</Table>

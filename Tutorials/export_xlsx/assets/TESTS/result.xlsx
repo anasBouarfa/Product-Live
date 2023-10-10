@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Generate-Excel xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet">
+   <File>
+      <File-Name>products.xlsx</File-Name>
+      <Template-Key>products</Template-Key>
+      <Sheets>
+         <Sheet>
+            <Sheet-Name>products</Sheet-Name>
+            <Cells>
+               <Row>
+                  <Cell-Text line="1" column="1" key="pid">PID</Cell-Text>
+                  <Cell-Text line="1" column="2" key="pcid">PCID</Cell-Text>
+                  <Cell-Text line="1" column="3" key="vid">VID</Cell-Text>
+                  <Cell-Text line="1" column="4" key="created">Date de création</Cell-Text>
+                  <Cell-Text line="1" column="5" key="categoriesSarenza">Catégorisation achat</Cell-Text>
+                  <Cell-Text line="1" column="6" key="model_name">Modèle</Cell-Text>
+                  <Cell-Text line="1" column="7" key="brand">Marque</Cell-Text>
+                  <Cell-Text line="1" column="8" key="22">Couleurs</Cell-Text>
+                  <Cell-Text line="1" column="9" key="60">Saison nouveauté</Cell-Text>
+                  <Cell-Text line="1" column="10" key="size">Variante\Taille EU</Cell-Text>
+                  <Cell-Text line="1" column="11" key="advised_sale_price">Prix de vente conseillé TTC (Euros)</Cell-Text>
+               </Row>
+               <Row>
+                  <Cell-Text line="1" column="1">124005</Cell-Text>
+                  <Cell-Text line="1" column="2">987000</Cell-Text>
+                  <Cell-Text line="1" column="3">1000007</Cell-Text>
+                  <Cell-Text line="1" column="4">12/09/2023</Cell-Text>
+                  <Cell-Text line="1" column="5">Mid Hautes</Cell-Text>
+                  <Cell-Text line="1" column="6">Modèle 124005</Cell-Text>
+                  <Cell-Text line="1" column="7">Jordan</Cell-Text>
+                  <Cell-Text line="1" column="8">Blanc</Cell-Text>
+                  <Cell-Text line="1" column="9"/>
+                  <Cell-Text line="1" column="10">41</Cell-Text>
+                  <Cell-Text line="1" column="11">77</Cell-Text>
+               </Row>
+               <Row>
+                  <Cell-Text line="2" column="1">124005</Cell-Text>
+                  <Cell-Text line="2" column="2">988010</Cell-Text>
+                  <Cell-Text line="2" column="3">1000006</Cell-Text>
+                  <Cell-Text line="2" column="4">12/09/2023</Cell-Text>
+                  <Cell-Text line="2" column="5">Mid Hautes</Cell-Text>
+                  <Cell-Text line="2" column="6">Modèle 124005</Cell-Text>
+                  <Cell-Text line="2" column="7">Jordan</Cell-Text>
+                  <Cell-Text line="2" column="8">Multicolore</Cell-Text>
+                  <Cell-Text line="2" column="9"/>
+                  <Cell-Text line="2" column="10">38</Cell-Text>
+                  <Cell-Text line="2" column="11">77</Cell-Text>
+               </Row>
+               <Row>
+                  <Cell-Text line="3" column="1">124005</Cell-Text>
+                  <Cell-Text line="3" column="2">988008</Cell-Text>
+                  <Cell-Text line="3" column="3">1000005</Cell-Text>
+                  <Cell-Text line="3" column="4">12/09/2023</Cell-Text>
+                  <Cell-Text line="3" column="5">Mid Hautes</Cell-Text>
+                  <Cell-Text line="3" column="6">Modèle 124005</Cell-Text>
+                  <Cell-Text line="3" column="7">Jordan</Cell-Text>
+                  <Cell-Text line="3" column="8">Marine</Cell-Text>
+                  <Cell-Text line="3" column="9"/>
+                  <Cell-Text line="3" column="10">39</Cell-Text>
+                  <Cell-Text line="3" column="11">77</Cell-Text>
+               </Row>
+               <Row>
+                  <Cell-Text line="4" column="1">124005</Cell-Text>
+                  <Cell-Text line="4" column="2">988009</Cell-Text>
+                  <Cell-Text line="4" column="3">1000004</Cell-Text>
+                  <Cell-Text line="4" column="4">12/09/2023</Cell-Text>
+                  <Cell-Text line="4" column="5">Mid Hautes</Cell-Text>
+                  <Cell-Text line="4" column="6">Modèle 124005</Cell-Text>
+                  <Cell-Text line="4" column="7">Jordan</Cell-Text>
+                  <Cell-Text line="4" column="8">Marron foncé</Cell-Text>
+                  <Cell-Text line="4" column="9"/>
+                  <Cell-Text line="4" column="10">41</Cell-Text>
+                  <Cell-Text line="4" column="11">77</Cell-Text>
+               </Row>
+               <Row>
+                  <Cell-Text line="5" column="1">124005</Cell-Text>
+                  <Cell-Text line="5" column="2">988006</Cell-Text>
+                  <Cell-Text line="5" column="3">1000003</Cell-Text>
+                  <Cell-Text line="5" column="4">12/09/2023</Cell-Text>
+                  <Cell-Text line="5" column="5">Mid Hautes</Cell-Text>
+                  <Cell-Text line="5" column="6">Modèle 124005</Cell-Text>
+                  <Cell-Text line="5" column="7">Jordan</Cell-Text>
+                  <Cell-Text line="5" column="8">Jaune vif</Cell-Text>
+                  <Cell-Text line="5" column="9"/>
+                  <Cell-Text line="5" column="10">40</Cell-Text>
+                  <Cell-Text line="5" column="11">77</Cell-Text>
+               </Row>
+               <Row>
+                  <Cell-Text line="6" column="1">124005</Cell-Text>
+                  <Cell-Text line="6" column="2">988000</Cell-Text>
+                  <Cell-Text line="6" column="3">1000002</Cell-Text>
+                  <Cell-Text line="6" column="4">12/09/2023</Cell-Text>
+                  <Cell-Text line="6" column="5">Mid Hautes</Cell-Text>
+                  <Cell-Text line="6" column="6">Modèle 124005</Cell-Text>
+                  <Cell-Text line="6" column="7">Jordan</Cell-Text>
+                  <Cell-Text line="6" column="8">Beige</Cell-Text>
+                  <Cell-Text line="6" column="9"/>
+                  <Cell-Text line="6" column="10">39</Cell-Text>
+                  <Cell-Text line="6" column="11">77</Cell-Text>
+               </Row>
+               <Row>
+                  <Cell-Text line="7" column="1">124005</Cell-Text>
+                  <Cell-Text line="7" column="2">988001</Cell-Text>
+                  <Cell-Text line="7" column="3">1000001</Cell-Text>
+                  <Cell-Text line="7" column="4">12/09/2023</Cell-Text>
+                  <Cell-Text line="7" column="5">Mid Hautes</Cell-Text>
+                  <Cell-Text line="7" column="6">Modèle 124005</Cell-Text>
+                  <Cell-Text line="7" column="7">Jordan</Cell-Text>
+                  <Cell-Text line="7" column="8">Blanc</Cell-Text>
+                  <Cell-Text line="7" column="9"/>
+                  <Cell-Text line="7" column="10">38</Cell-Text>
+                  <Cell-Text line="7" column="11">77</Cell-Text>
+               </Row>
+               <Row>
+                  <Cell-Text line="1" column="1">123001</Cell-Text>
+                  <Cell-Text line="1" column="2">987001</Cell-Text>
+                  <Cell-Text line="1" column="3">1234001</Cell-Text>
+                  <Cell-Text line="1" column="4">12/09/2023</Cell-Text>
+                  <Cell-Text line="1" column="5">Baskets</Cell-Text>
+                  <Cell-Text line="1" column="6">Modèle 123001</Cell-Text>
+                  <Cell-Text line="1" column="7">Nike</Cell-Text>
+                  <Cell-Text line="1" column="8">Beige</Cell-Text>
+                  <Cell-Text line="1" column="9"/>
+                  <Cell-Text line="1" column="10">47</Cell-Text>
+                  <Cell-Text line="1" column="11">98</Cell-Text>
+               </Row>
+               <Row>
+                  <Cell-Text line="1" column="1">123002</Cell-Text>
+                  <Cell-Text line="1" column="2">987002</Cell-Text>
+                  <Cell-Text line="1" column="3">1234002</Cell-Text>
+                  <Cell-Text line="1" column="4">12/09/2023</Cell-Text>
+                  <Cell-Text line="1" column="5">Baskets</Cell-Text>
+                  <Cell-Text line="1" column="6">Modèle 123002</Cell-Text>
+                  <Cell-Text line="1" column="7">adidas originals</Cell-Text>
+                  <Cell-Text line="1" column="8">Noir</Cell-Text>
+                  <Cell-Text line="1" column="9"/>
+                  <Cell-Text line="1" column="10">43</Cell-Text>
+                  <Cell-Text line="1" column="11">66</Cell-Text>
+               </Row>
+            </Cells>
+         </Sheet>
+      </Sheets>
+   </File>
+   <Worksheet ss:Name="Products">
+      <Table>
+         <Column ss:Index="1" ss:AutoFitWidth="0" ss:Width="110"/>
+         <Row>
+            <Cell-Text line="1" column="1" key="pid">PID</Cell-Text>
+            <Cell-Text line="1" column="2" key="pcid">PCID</Cell-Text>
+            <Cell-Text line="1" column="3" key="vid">VID</Cell-Text>
+            <Cell-Text line="1" column="4" key="created">Date de création</Cell-Text>
+            <Cell-Text line="1" column="5" key="categoriesSarenza">Catégorisation achat</Cell-Text>
+            <Cell-Text line="1" column="6" key="model_name">Modèle</Cell-Text>
+            <Cell-Text line="1" column="7" key="brand">Marque</Cell-Text>
+            <Cell-Text line="1" column="8" key="22">Couleurs</Cell-Text>
+            <Cell-Text line="1" column="9" key="60">Saison nouveauté</Cell-Text>
+            <Cell-Text line="1" column="10" key="size">Variante\Taille EU</Cell-Text>
+            <Cell-Text line="1" column="11" key="advised_sale_price">Prix de vente conseillé TTC (Euros)</Cell-Text>
+         </Row>
+         <Row>
+            <Cell-Text line="1" column="1">124005</Cell-Text>
+            <Cell-Text line="1" column="2">987000</Cell-Text>
+            <Cell-Text line="1" column="3">1000007</Cell-Text>
+            <Cell-Text line="1" column="4">12/09/2023</Cell-Text>
+            <Cell-Text line="1" column="5">Mid Hautes</Cell-Text>
+            <Cell-Text line="1" column="6">Modèle 124005</Cell-Text>
+            <Cell-Text line="1" column="7">Jordan</Cell-Text>
+            <Cell-Text line="1" column="8">Blanc</Cell-Text>
+            <Cell-Text line="1" column="9"/>
+            <Cell-Text line="1" column="10">41</Cell-Text>
+            <Cell-Text line="1" column="11">77</Cell-Text>
+         </Row>
+         <Row>
+            <Cell-Text line="2" column="1">124005</Cell-Text>
+            <Cell-Text line="2" column="2">988010</Cell-Text>
+            <Cell-Text line="2" column="3">1000006</Cell-Text>
+            <Cell-Text line="2" column="4">12/09/2023</Cell-Text>
+            <Cell-Text line="2" column="5">Mid Hautes</Cell-Text>
+            <Cell-Text line="2" column="6">Modèle 124005</Cell-Text>
+            <Cell-Text line="2" column="7">Jordan</Cell-Text>
+            <Cell-Text line="2" column="8">Multicolore</Cell-Text>
+            <Cell-Text line="2" column="9"/>
+            <Cell-Text line="2" column="10">38</Cell-Text>
+            <Cell-Text line="2" column="11">77</Cell-Text>
+         </Row>
+         <Row>
+            <Cell-Text line="3" column="1">124005</Cell-Text>
+            <Cell-Text line="3" column="2">988008</Cell-Text>
+            <Cell-Text line="3" column="3">1000005</Cell-Text>
+            <Cell-Text line="3" column="4">12/09/2023</Cell-Text>
+            <Cell-Text line="3" column="5">Mid Hautes</Cell-Text>
+            <Cell-Text line="3" column="6">Modèle 124005</Cell-Text>
+            <Cell-Text line="3" column="7">Jordan</Cell-Text>
+            <Cell-Text line="3" column="8">Marine</Cell-Text>
+            <Cell-Text line="3" column="9"/>
+            <Cell-Text line="3" column="10">39</Cell-Text>
+            <Cell-Text line="3" column="11">77</Cell-Text>
+         </Row>
+         <Row>
+            <Cell-Text line="4" column="1">124005</Cell-Text>
+            <Cell-Text line="4" column="2">988009</Cell-Text>
+            <Cell-Text line="4" column="3">1000004</Cell-Text>
+            <Cell-Text line="4" column="4">12/09/2023</Cell-Text>
+            <Cell-Text line="4" column="5">Mid Hautes</Cell-Text>
+            <Cell-Text line="4" column="6">Modèle 124005</Cell-Text>
+            <Cell-Text line="4" column="7">Jordan</Cell-Text>
+            <Cell-Text line="4" column="8">Marron foncé</Cell-Text>
+            <Cell-Text line="4" column="9"/>
+            <Cell-Text line="4" column="10">41</Cell-Text>
+            <Cell-Text line="4" column="11">77</Cell-Text>
+         </Row>
+         <Row>
+            <Cell-Text line="5" column="1">124005</Cell-Text>
+            <Cell-Text line="5" column="2">988006</Cell-Text>
+            <Cell-Text line="5" column="3">1000003</Cell-Text>
+            <Cell-Text line="5" column="4">12/09/2023</Cell-Text>
+            <Cell-Text line="5" column="5">Mid Hautes</Cell-Text>
+            <Cell-Text line="5" column="6">Modèle 124005</Cell-Text>
+            <Cell-Text line="5" column="7">Jordan</Cell-Text>
+            <Cell-Text line="5" column="8">Jaune vif</Cell-Text>
+            <Cell-Text line="5" column="9"/>
+            <Cell-Text line="5" column="10">40</Cell-Text>
+            <Cell-Text line="5" column="11">77</Cell-Text>
+         </Row>
+         <Row>
+            <Cell-Text line="6" column="1">124005</Cell-Text>
+            <Cell-Text line="6" column="2">988000</Cell-Text>
+            <Cell-Text line="6" column="3">1000002</Cell-Text>
+            <Cell-Text line="6" column="4">12/09/2023</Cell-Text>
+            <Cell-Text line="6" column="5">Mid Hautes</Cell-Text>
+            <Cell-Text line="6" column="6">Modèle 124005</Cell-Text>
+            <Cell-Text line="6" column="7">Jordan</Cell-Text>
+            <Cell-Text line="6" column="8">Beige</Cell-Text>
+            <Cell-Text line="6" column="9"/>
+            <Cell-Text line="6" column="10">39</Cell-Text>
+            <Cell-Text line="6" column="11">77</Cell-Text>
+         </Row>
+         <Row>
+            <Cell-Text line="7" column="1">124005</Cell-Text>
+            <Cell-Text line="7" column="2">988001</Cell-Text>
+            <Cell-Text line="7" column="3">1000001</Cell-Text>
+            <Cell-Text line="7" column="4">12/09/2023</Cell-Text>
+            <Cell-Text line="7" column="5">Mid Hautes</Cell-Text>
+            <Cell-Text line="7" column="6">Modèle 124005</Cell-Text>
+            <Cell-Text line="7" column="7">Jordan</Cell-Text>
+            <Cell-Text line="7" column="8">Blanc</Cell-Text>
+            <Cell-Text line="7" column="9"/>
+            <Cell-Text line="7" column="10">38</Cell-Text>
+            <Cell-Text line="7" column="11">77</Cell-Text>
+         </Row>
+         <Row>
+            <Cell-Text line="1" column="1">123001</Cell-Text>
+            <Cell-Text line="1" column="2">987001</Cell-Text>
+            <Cell-Text line="1" column="3">1234001</Cell-Text>
+            <Cell-Text line="1" column="4">12/09/2023</Cell-Text>
+            <Cell-Text line="1" column="5">Baskets</Cell-Text>
+            <Cell-Text line="1" column="6">Modèle 123001</Cell-Text>
+            <Cell-Text line="1" column="7">Nike</Cell-Text>
+            <Cell-Text line="1" column="8">Beige</Cell-Text>
+            <Cell-Text line="1" column="9"/>
+            <Cell-Text line="1" column="10">47</Cell-Text>
+            <Cell-Text line="1" column="11">98</Cell-Text>
+         </Row>
+         <Row>
+            <Cell-Text line="1" column="1">123002</Cell-Text>
+            <Cell-Text line="1" column="2">987002</Cell-Text>
+            <Cell-Text line="1" column="3">1234002</Cell-Text>
+            <Cell-Text line="1" column="4">12/09/2023</Cell-Text>
+            <Cell-Text line="1" column="5">Baskets</Cell-Text>
+            <Cell-Text line="1" column="6">Modèle 123002</Cell-Text>
+            <Cell-Text line="1" column="7">adidas originals</Cell-Text>
+            <Cell-Text line="1" column="8">Noir</Cell-Text>
+            <Cell-Text line="1" column="9"/>
+            <Cell-Text line="1" column="10">43</Cell-Text>
+            <Cell-Text line="1" column="11">66</Cell-Text>
+         </Row>
+      </Table>
+   </Worksheet>
+</Generate-Excel>
