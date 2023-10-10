@@ -137,7 +137,6 @@
                                     <xsl:variable name="pos" select="position()"/>
                                     <Cell-Text line="1" column="{$pos}"><xsl:value-of select="."/></Cell-Text>
                                 </xsl:for-each>
-                                <xsl:copy-of select="$generateHeader"/>
                                 <xsl:copy-of select="$data"/>
                             </Cells>
                         </Sheet>

@@ -18,17 +18,6 @@
                <Cell-Text line="1" column="9">Saison nouveauté</Cell-Text>
                <Cell-Text line="1" column="10">Variante\Taille EU</Cell-Text>
                <Cell-Text line="1" column="11">Prix de vente conseillé TTC (Euros)</Cell-Text>
-               <Cell key="pid">PID</Cell>
-               <Cell key="pcid">PCID</Cell>
-               <Cell key="vid">VID</Cell>
-               <Cell key="created">Date de création</Cell>
-               <Cell key="categoriesSarenza">Catégorisation achat</Cell>
-               <Cell key="model_name">Modèle</Cell>
-               <Cell key="brand">Marque</Cell>
-               <Cell key="22">Couleurs</Cell>
-               <Cell key="60">Saison nouveauté</Cell>
-               <Cell key="size">Variante\Taille EU</Cell>
-               <Cell key="advised_sale_price">Prix de vente conseillé TTC (Euros)</Cell>
                <Cell-Text line="2" column="1">124005</Cell-Text>
                <Cell-Text line="2" column="2">987000</Cell-Text>
                <Cell-Text line="2" column="3">1000007</Cell-Text>
